@@ -1,0 +1,20 @@
+input: .
+output: .retype
+url: # Add your website address here
+branding:
+  title: The Universe
+  label: v0.1
+links:
+- text: SPS Website
+  link: https://sps.nus.edu.sg/
+  icon: ":globe_with_meridians:"
+- text: Canva
+  link: https://luminus.nus.edu.sg/
+  icon: ":ledger:"
+- text: Photo Submissions
+  link: https://forms.gle/94mhSjf6xP9nPZ5y5
+  icon: ":milky_way:"
+exclude:
+  - "Archives"
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
