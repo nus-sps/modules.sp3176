@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.712327741998">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.712432722780">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,13 +30,66 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.712327741998" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.712432722780" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.712327741998" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.712432722780" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.712327741998" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.712432722780" data-turbo-eval="false" defer></script>
     <link href="../../resources/css/katex.css?v=2.4.0" rel="stylesheet" />
     <script id="katex-js" type="text/javascript" src="../../resources/js/katex.js?v=2.4.0" defer></script>
+
+    <!DOCTYPE html>
+    <style>
+    	.quote {
+    /*		text-align : left;
+    		color: #000000;
+    		font-family: "Luminari, fantasy";
+    		padding-top: 20px;
+            margin-bottom: 20px;
+            background-color: #404040;
+            border: 1px solid #1956AF;*/
+            font-family: Luminari, fantasy;
+    		background: #f9f9f9;
+     		border-left: 10px solid #ccc;
+      		margin: 1.5em 10px;
+      		padding: 0.5em 10px;
+      		quotes: "\201C""\201D""\2018""\2019";
+      		border-top-left-radius: 10px;
+      		border-top-right-radius: 10px;
+      		border-bottom-right-radius: 10px;
+      		border-bottom-left-radius: 10px;
+      		font-size: 1.1em;
+    	}
+    	.quote:before {
+      		color: #ccc;
+      		content: open-quote;
+      		font-size: 4em;
+      		line-height: 0.1em;
+      		margin-right: 0.25em;
+      		vertical-align: -0.4em;	
+    	}
+    </style>
+    <!-- 
+    #border: 0.2px solid rgb(224, 224, 224); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding: 10px; background-color: rgb(255, 232, 232);
+
+    blockquote {
+      background: #f9f9f9;
+      border-left: 10px solid #ccc;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+    blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+    blockquote p {
+      display: inline;
+    } -->
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -269,9 +322,7 @@ that do not change with time <span class="math">t</span>.)</p>
 sense of the code below.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">GlowScript 2.2 VPython 
-
-#constants 
-
+#constants
 R=15e9
 Re=150e9
 Ms=2e30
@@ -328,14 +379,20 @@ while t&lt;15000000000:
     t=t+dt
 </code></pre>
 </doc-codeblock></div>
-<p>Run the code in <a href="https://trinket.io/glowscript/7bdf9fcfab">Trinket</a>.</p>
+<p>Run the code in <a href="https://trinket.io/glowscript/7bdf9fcfab" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span><img class="mb-px inline-flex mr-2" width="18" src="../../resources/common/trinket-logo.png" /></span>
+    <span>Trinket</span>
+</a>.</p>
 <p>In your program, change parameters one at a time and observe the difference
 in results. For example change the initial Earth momentum to</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">earth.p=vector(0,38e3,0)*earth.m</code></pre>
 </doc-codeblock></div>
 <p>Play around and record any notable &#x27;&#x27;discoveries&#x27;&#x27;.</p>
-<p>Get an account in <a href="https://trinket.io">Trinket</a>. Sign in, create a new trinket
+<p>Get an account in <a href="https://trinket.io" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span><img class="mb-px inline-flex mr-2" width="18" src="../../resources/common/trinket-logo.png" /></span>
+    <span>Trinket</span>
+</a>. Sign in, create a new trinket
 program (select Glowscript) and copy and paste the the Sun-Earth code.
 Now the program is yours!</p>
 

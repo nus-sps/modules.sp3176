@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.712327741998">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.712432722780">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,13 +30,66 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.712327741998" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.712432722780" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.712327741998" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.712432722780" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.712327741998" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.712432722780" data-turbo-eval="false" defer></script>
     <link href="../../resources/css/katex.css?v=2.4.0" rel="stylesheet" />
     <script id="katex-js" type="text/javascript" src="../../resources/js/katex.js?v=2.4.0" defer></script>
+
+    <!DOCTYPE html>
+    <style>
+    	.quote {
+    /*		text-align : left;
+    		color: #000000;
+    		font-family: "Luminari, fantasy";
+    		padding-top: 20px;
+            margin-bottom: 20px;
+            background-color: #404040;
+            border: 1px solid #1956AF;*/
+            font-family: Luminari, fantasy;
+    		background: #f9f9f9;
+     		border-left: 10px solid #ccc;
+      		margin: 1.5em 10px;
+      		padding: 0.5em 10px;
+      		quotes: "\201C""\201D""\2018""\2019";
+      		border-top-left-radius: 10px;
+      		border-top-right-radius: 10px;
+      		border-bottom-right-radius: 10px;
+      		border-bottom-left-radius: 10px;
+      		font-size: 1.1em;
+    	}
+    	.quote:before {
+      		color: #ccc;
+      		content: open-quote;
+      		font-size: 4em;
+      		line-height: 0.1em;
+      		margin-right: 0.25em;
+      		vertical-align: -0.4em;	
+    	}
+    </style>
+    <!-- 
+    #border: 0.2px solid rgb(224, 224, 224); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding: 10px; background-color: rgb(255, 232, 232);
+
+    blockquote {
+      background: #f9f9f9;
+      border-left: 10px solid #ccc;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+    blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+    blockquote p {
+      display: inline;
+    } -->
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -296,6 +349,7 @@ of a particle changes with position <span class="math">x</span> in different phy
 the particle. The bigger the wavefunction at a position, the higher
 the chance of finding the particle around that position.</p>
 <div class="math"><pre>-{\displaystyle \frac{\hbar^{2}}{2m}\frac{d^{2}\psi}{dx^{2}}}+\left(V(x)-E\right)\psi(x)=0</pre></div>
+<hr />
 <doc-anchor-target id="222-solving-des-analytically">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#222-solving-des-analytically">#</doc-anchor-trigger>
@@ -397,7 +451,7 @@ c\lambda^{2}e^{\lambda t} &amp; =-\frac{k}{m}ce^{\lambda t}\\
 \end{align*}</pre></div>
 <p>Hence the solution is</p>
 <div class="math"><pre>x=c_{1}e^{i\sqrt{k/m}t}+c_{2}e^{-i\sqrt{k/m}t}</pre></div>
-<p initial="" conditions="">Assuming the following \textbf:</p>
+<p>Assuming the following <strong>initial conditions</strong>:</p>
 <div class="math"><pre>\begin{align*}
 x(0) &amp; =x_{0}\\
 v(0) &amp; =0
@@ -452,6 +506,7 @@ R &amp; =R_{0}\cos(\sqrt{k_{1}k_{2}}t)\\
 J &amp; =\frac{1}{k_{1}}\frac{dR}{dt}=-\frac{1}{k_{1}}R_{0}\sqrt{k_{1}k_{2}}\sin(\sqrt{k_{1}k_{2}}t)=-\sqrt{\frac{k_{2}}{k_{1}}}R_{0}\sin(\sqrt{k_{1}k_{2}}t)
 \end{align*}</pre></div>
 <p>Go to <a href="chapter-2/in-class-activities">Activity 2</a>.</p>
+<hr />
 <doc-anchor-target id="223-solving-des-numerically">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#223-solving-des-numerically">#</doc-anchor-trigger>

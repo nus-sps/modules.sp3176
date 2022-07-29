@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.712327741998">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.712432722780">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,13 +30,66 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.712327741998" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.712432722780" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.712327741998" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.712432722780" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.712327741998" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.712432722780" data-turbo-eval="false" defer></script>
     <link href="../../resources/css/katex.css?v=2.4.0" rel="stylesheet" />
     <script id="katex-js" type="text/javascript" src="../../resources/js/katex.js?v=2.4.0" defer></script>
+
+    <!DOCTYPE html>
+    <style>
+    	.quote {
+    /*		text-align : left;
+    		color: #000000;
+    		font-family: "Luminari, fantasy";
+    		padding-top: 20px;
+            margin-bottom: 20px;
+            background-color: #404040;
+            border: 1px solid #1956AF;*/
+            font-family: Luminari, fantasy;
+    		background: #f9f9f9;
+     		border-left: 10px solid #ccc;
+      		margin: 1.5em 10px;
+      		padding: 0.5em 10px;
+      		quotes: "\201C""\201D""\2018""\2019";
+      		border-top-left-radius: 10px;
+      		border-top-right-radius: 10px;
+      		border-bottom-right-radius: 10px;
+      		border-bottom-left-radius: 10px;
+      		font-size: 1.1em;
+    	}
+    	.quote:before {
+      		color: #ccc;
+      		content: open-quote;
+      		font-size: 4em;
+      		line-height: 0.1em;
+      		margin-right: 0.25em;
+      		vertical-align: -0.4em;	
+    	}
+    </style>
+    <!-- 
+    #border: 0.2px solid rgb(224, 224, 224); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding: 10px; background-color: rgb(255, 232, 232);
+
+    blockquote {
+      background: #f9f9f9;
+      border-left: 10px solid #ccc;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+    blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+    blockquote p {
+      display: inline;
+    } -->
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -209,11 +262,13 @@
         <div>By</div>
         <div class="ml-2 flex items-center">
           <div class="shrink-0 w-8 h-8 overflow-hidden rounded-full">
-            <a href="https://sps.nus.edu.sg/user/matthew.sung20/"><img class="object-cover" src="https://sps.nus.edu.sg/wp-content/uploads/ultimatemember/171/profile_photo-190x190.jpg?1658781280"/></a>
+            <a href="https://sps.nus.edu.sg/user/lim.zhihan/"><img class="object-cover" src="https://sps.nus.edu.sg/wp-content/uploads/2019/06/logo_sps20.png"/></a>
           </div>
-          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350"><a href="https://sps.nus.edu.sg/user/matthew.sung20/">Matthew Sung</a></div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350"><a href="https://sps.nus.edu.sg/user/lim.zhihan/">Dr Lim Zhi Han</a></div>
         </div>
     </div>
+    <div class="mx-2">&#9679;</div>
+    <div class="flex items-center shrink-0">Published&nbsp;<span>2022-07-30</span></div>
 </div>
 
 <doc-anchor-target id="13-introduction-to-telescopes">
@@ -241,15 +296,15 @@ to distinguish clearly between closely spaced objects. This is particularly
 useful if we want to view individual objects clearly. A case in point
 will be using telescopes with large resolving powers to resolve galaxies
 to see that they are made up of millions of stars.</p>
-<p Jan="" Sandberg=""><figure class="content-center">
+<p><figure class="content-center">
     <img src="../../resources/chapter-1/jupiter_m31.png" alt="Upper: Jupiter and the 4 Galilean moons taken with an amateur telescope.
-Image credit: \protect\href{https://commons.wikimedia.org/wiki/File:Jupiter-moons.jpg}.
+Image credit: Jan Sandberg.
 Lower: Millions of stars in Andromeda, taken by Hubble Space Telescope
-Image credit: \protect\href{https://www.nasa.gov/content/goddard/hubble-s-high-definition-panoramic-view-of-the-andromeda-galaxy}{NASA, ESA}." />
+Image credit: NASA, ESA." />
     <figcaption class="caption">Upper: Jupiter and the 4 Galilean moons taken with an amateur telescope.
-Image credit: \protect\href{https://commons.wikimedia.org/wiki/File:Jupiter-moons.jpg}.
-Lower: Millions of stars in Andromeda, taken by Hubble Space Telescope
-Image credit: \protect\href{https://www.nasa.gov/content/goddard/hubble-s-high-definition-panoramic-view-of-the-andromeda-galaxy}{NASA, ESA}.</figcaption>
+Image credit: <a href="https://commons.wikimedia.org/wiki/File:Jupiter-moons.jpg">Jan Sandberg</a>.
+</br>Lower: Millions of stars in Andromeda, taken by Hubble Space Telescope
+Image credit: <a href="https://www.nasa.gov/content/goddard/hubble-s-high-definition-panoramic-view-of-the-andromeda-galaxy">NASA, ESA</a>.</figcaption>
 </figure>
 </p>
 <p>A common misconception is that telescopes are used for magnifying
@@ -273,6 +328,9 @@ mount may be preferred over the others. In general, telescopes can
 be classified into two types, namely Refractors and Reflectors. There
 are also two kinds of mounts, namely the Altitude-Azimuth (Alt-Az)
 and Equatorial mounts.</p>
+<doc-tabs>
+<doc-tab id="refractors">
+<template #title>Refractors</template>
 <doc-anchor-target id="refractors">
     <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#refractors">#</doc-anchor-trigger>
@@ -309,6 +367,9 @@ and weigh more. Moreover, a longer optical tube will also be required
 to bring the light rays into focus. This means that refractors with
 larger lenses and hence larger aperture sizes or diameters tend to
 be heavier and quite expensive.</p>
+</doc-tab>
+<doc-tab id="reflectors">
+<template #title>Reflectors</template>
 <doc-anchor-target id="reflectors">
     <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#reflectors">#</doc-anchor-trigger>
@@ -342,6 +403,15 @@ periodically and realigned (collimated). An improperly aligned telescope
 may result in blurry or distorted images. Moreover, the large reflecting
 surface of the primary mirror may become tarnished when exposed to
 open air after years of usage.</p>
+</doc-tab>
+<doc-tab id="schmidt-cassegrain">
+<template #title>Schmidt-Cassegrain</template>
+<doc-anchor-target id="schmidt-cassegrain">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#schmidt-cassegrain">#</doc-anchor-trigger>
+        <span>Schmidt-Cassegrain</span>
+    </h4>
+</doc-anchor-target>
 <p><figure class="content-center">
     <img src="../../resources/chapter-1/schmidtcassegrain2.png" alt="" />
     <figcaption class="caption"></figcaption>
@@ -358,6 +428,8 @@ much more accessible and enables the scope to be made much more compact
 to a Newtonian reflector. The Schmidt-Cassegrain differs from the
 usual Cassegrain by having an additional corrector lens at the front
 of the telescope. The purpose of this lens will be discussed later.</p>
+</doc-tab>
+</doc-tabs>
 <doc-anchor-target id="133-telescope-mounts">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#133-telescope-mounts">#</doc-anchor-trigger>

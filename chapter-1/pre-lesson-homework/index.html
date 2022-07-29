@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.712327741998">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.712432722780">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,11 +30,64 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.712327741998" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.712432722780" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.712327741998" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.712432722780" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.712327741998" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.712432722780" data-turbo-eval="false" defer></script>
+
+    <!DOCTYPE html>
+    <style>
+    	.quote {
+    /*		text-align : left;
+    		color: #000000;
+    		font-family: "Luminari, fantasy";
+    		padding-top: 20px;
+            margin-bottom: 20px;
+            background-color: #404040;
+            border: 1px solid #1956AF;*/
+            font-family: Luminari, fantasy;
+    		background: #f9f9f9;
+     		border-left: 10px solid #ccc;
+      		margin: 1.5em 10px;
+      		padding: 0.5em 10px;
+      		quotes: "\201C""\201D""\2018""\2019";
+      		border-top-left-radius: 10px;
+      		border-top-right-radius: 10px;
+      		border-bottom-right-radius: 10px;
+      		border-bottom-left-radius: 10px;
+      		font-size: 1.1em;
+    	}
+    	.quote:before {
+      		color: #ccc;
+      		content: open-quote;
+      		font-size: 4em;
+      		line-height: 0.1em;
+      		margin-right: 0.25em;
+      		vertical-align: -0.4em;	
+    	}
+    </style>
+    <!-- 
+    #border: 0.2px solid rgb(224, 224, 224); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding: 10px; background-color: rgb(255, 232, 232);
+
+    blockquote {
+      background: #f9f9f9;
+      border-left: 10px solid #ccc;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+    blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+    blockquote p {
+      display: inline;
+    } -->
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -207,11 +260,13 @@
         <div>By</div>
         <div class="ml-2 flex items-center">
           <div class="shrink-0 w-8 h-8 overflow-hidden rounded-full">
-            <a href="https://sps.nus.edu.sg/user/matthew.sung20/"><img class="object-cover" src="https://sps.nus.edu.sg/wp-content/uploads/ultimatemember/171/profile_photo-190x190.jpg?1658781280"/></a>
+            <a href="https://sps.nus.edu.sg/user/lim.zhihan/"><img class="object-cover" src="https://sps.nus.edu.sg/wp-content/uploads/2019/06/logo_sps20.png"/></a>
           </div>
-          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350"><a href="https://sps.nus.edu.sg/user/matthew.sung20/">Matthew Sung</a></div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350"><a href="https://sps.nus.edu.sg/user/lim.zhihan/">Dr Lim Zhi Han</a></div>
         </div>
     </div>
+    <div class="mx-2">&#9679;</div>
+    <div class="flex items-center shrink-0">Published&nbsp;<span>2022-07-30</span></div>
 </div>
 
 <doc-anchor-target id="11-pre-lesson-homework">
@@ -328,7 +383,7 @@ pressing Ctrl + Up or Down arrows.</p>
         <span>1.1.3 Telescope</span>
     </h3>
 </doc-anchor-target>
-<p>Read the SPS telescope manual (for Nexstar 6SE).</p>
+<p>Read the <a href="../../telescope/">SPS telescope manual</a> (for Nexstar 6SE).</p>
 
                                 
                                 <!-- Required only on API pages -->
