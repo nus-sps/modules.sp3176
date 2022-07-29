@@ -75,7 +75,7 @@ write a short sentence for each to explain its meaning.
 | Azimuth          |         |
 
 ### 1.1.2 Stellarium
-Download the programme [!badge icon="resources/common/Stellarium-icon.png" text="Stellarium"](https://stellarium.org/)
+Download the programme [!badge icon="/resources/common/Stellarium-icon.png" text="Stellarium"](https://stellarium.org/)
 
 
 1. Launch Stellarium. 
@@ -118,17 +118,8 @@ examples are listed below.
 
 ![**Nebra sky disk.** A bronze disk depicting the Sun, Moon, and
 32 stars including a star cluster, likely representing the Pleiades.
-The disk dated to 1600 BC was found in Saxony-Anhalt, Germany.](<resources/Chapter 1/Nebra.jpg>)
-
-
-![**Nebra sky disk.** A bronze disk depicting the Sun, Moon, and
-32 stars including a star cluster, likely representing the Pleiades.
-The disk dated to 1600 BC was found in Saxony-Anhalt, Germany. Image credit: [J. M Bonnet Bidaud, F. Praderie, S. Whitfield](https://apod.nasa.gov/apod/ap090619.html)](<resources/Chapter 1/Nebra.jpg>)
-
-![**Nebra sky disk.** A bronze disk depicting the Sun, Moon, and
-32 stars including a star cluster, likely representing the Pleiades.
 The disk dated to 1600 BC was found in Saxony-Anhalt, Germany.
-Image credit: <a href="https://apod.nasa.gov/apod/ap090619.html">J. M Bonnet Bidaud, F. Praderie, S. Whitfield</a>](<resources/Chapter 1/Nebra.jpg>)
+Image credit: <a href="https://apod.nasa.gov/apod/ap090619.html">J. M Bonnet Bidaud, F. Praderie, S. Whitfield</a>](</resources/Chapter 1/Nebra.jpg>)
 
 ### 1.2.2 Geocentric, Static Earth and Perfect Circles
 
@@ -175,7 +166,7 @@ back in the usual direction.
 ![**Path of Mars across the fixed stars in the night sky as seen from
 Earth.** From around August to October in 2003, the planet moved in
 the opposite way, from west (left) to east (right). Image credit:
-\protect\href{https://commons.wikimedia.org/w/index.php?curid=4662202}{Eugene Alvin Villar, CC BY-SA 4.0](<resources/Chapter 1/retrogradeMotionMars.png>)
+\protect\href{https://commons.wikimedia.org/w/index.php?curid=4662202}{Eugene Alvin Villar, CC BY-SA 4.0](</resources/Chapter 1/retrogradeMotionMars.png>)
 
 
 ### 1.2.4 Ptolemy's Solution: Circles within Circles
@@ -215,7 +206,7 @@ is analogous to Ptolemy's geocentric model with an epicycle. Hear
 for yourself to note the difference.
 
 ![Snapshots of simulated retrograde motion of a planet with Ptolemy's
-geocentric model with one epicycle. ](<resources/Chapter 1/Ptolemy_retrograde.png>)
+geocentric model with one epicycle. ](</resources/Chapter 1/Ptolemy_retrograde.png>)
 
 
 ### 1.2.5 Heliocentric model
@@ -235,7 +226,7 @@ a planet can be observed around the time when it is at it's closest
 distance to Earth.
 
 ![Snapshots of simulated retrograde motion of a planet with Corpernicus'
-heliocentric model without epicycles.](<resources/Chapter 1/Copernicus_retrograde.png>)
+heliocentric model without epicycles.](</resources/Chapter 1/Copernicus_retrograde.png>)
 
 Unfortunately, despite the elegance, Copernicus' model cannot account
 for the observational data very well when it comes down to numbers.
@@ -269,7 +260,7 @@ Tycho fell out of favour with the new Danish king and moved to Prague
 to begin work as Imperial Mathematician.
 
 ![Tycho Brahe's geo-heliocentric model. The Moon and Sun orbit the Earth
-while the other planets orbit the Sun. \protect\href{https://commons.wikimedia.org/wiki/File:Tychonian_system.svg}{Image credit: Fastfission, PD}](<resources/Chapter 1/Tycho_system.PNG>)
+while the other planets orbit the Sun. \protect\href{https://commons.wikimedia.org/wiki/File:Tychonian_system.svg}{Image credit: Fastfission, PD}](</resources/Chapter 1/Tycho_system.PNG>)
 
 ### 1.2.7 Johannes Kepler and the Laws of Planetary Motion
 
@@ -304,7 +295,7 @@ center of the ellipse to its circumference, and $\epsilon$ is the
 eccentricity, which characterises how elongated the ellipse is. 
 
 ![Anatomy of an ellipse. To see how the parameters affect the shape
-of the ellipse, visualise it on \protect\href{https://www.desmos.com/calculator}{Desmos})(A0 Q6)](<resources/Chapter 1/Ellipse.png>)
+of the ellipse, visualise it on \protect\href{https://www.desmos.com/calculator}{Desmos})(A0 Q6)](</resources/Chapter 1/Ellipse.png>)
 
 The second law can be expressed mathematically by 
 $$
@@ -353,7 +344,7 @@ to see that they are made up of millions of stars.
 ![Upper: Jupiter and the 4 Galilean moons taken with an amateur telescope.
 Image credit: \protect\href{https://commons.wikimedia.org/wiki/File:Jupiter-moons.jpg}{Jan Sandberg}.
 Lower: Millions of stars in Andromeda, taken by Hubble Space Telescope
-Image credit: \protect\href{https://www.nasa.gov/content/goddard/hubble-s-high-definition-panoramic-view-of-the-andromeda-galaxy}{NASA, ESA}.](<resources/Chapter 1/Jupiter_M31.png>)
+Image credit: \protect\href{https://www.nasa.gov/content/goddard/hubble-s-high-definition-panoramic-view-of-the-andromeda-galaxy}{NASA, ESA}.](</resources/Chapter 1/Jupiter_M31.png>)
 
 A common misconception is that telescopes are used for magnifying
 objects. While telescope do magnify an image, this is not the primary
@@ -376,7 +367,7 @@ and Equatorial mounts.
 
 #### Refractors
 
-![](<resources/Chapter 1/Keplerian2.png>)
+![](</resources/Chapter 1/Keplerian2.png>)
 
 A refracting telescope makes use of specially designed lenses to bend
 light from a distant object to a focus and form an image. The earliest
@@ -408,7 +399,7 @@ be heavier and quite expensive.
 
 #### Reflectors
 
-![](<resources/Chapter 1/Reflector2.png>)
+![](</resources/Chapter 1/Reflector2.png>)
 
 As its name implies, a reflector telescope makes use of curved mirrors
 that reflect light to a focus. The telescope was first introduced
@@ -435,7 +426,7 @@ may result in blurry or distorted images. Moreover, the large reflecting
 surface of the primary mirror may become tarnished when exposed to
 open air after years of usage. 
 
-![](<resources/Chapter 1/SchmidtCassegrain2.png>)
+![](</resources/Chapter 1/SchmidtCassegrain2.png>)
 
 The Schmidt-Cassegrain is an upgraded version of the Cassegrain, a
 reflecting telescope introduced in 1672 by the French priest Laurent
@@ -523,7 +514,7 @@ of a telescope creates a circular interference pattern.
 
 ![Left: Simulated image of a star, showing the central Airy disk surrounded
 by concentric faint rings. Right: Intensity profile of the radiation
-pattern.](<resources/Chapter 1/Airy.png>)
+pattern.](</resources/Chapter 1/Airy.png>)
 
 A circular aperture is much like a single slit but exists in two dimensions
 instead of one. Because of this, when you make an image of a distant
@@ -549,7 +540,7 @@ objects will be seen as a single fuzz.
 ![**Left:** Two close stars appear as two Airy disks. **Center:**
 It is hard to tell two stars apart when their Airy disks overlap.
 **Right:** When two stars are as close as the radius of the Airy
-disc, we cannot tell the apart.](<Resources/Chapter 1/Angular resolution.png>)
+disc, we cannot tell the apart.](</resources/Chapter 1/Angular resolution.png>)
 
 We see that, for a fixed primary lens or mirror the telescope uses,
 the size of the Airy Disk depends solely on the diameter of the circular
@@ -599,7 +590,7 @@ minimize this error, usually with a more highly curved front surface
 facing the sky. 
 
 ![Schematic of chromatic aberration (left) and spherical aberration
-(right)](<resources/Chapter 1/Abberations.png>)
+(right)](</resources/Chapter 1/Aberrations.png>)
 
 
 Coma and astigmatism are two special kinds of spherical aberrations.
@@ -743,7 +734,7 @@ include Fermi Space Telescope and the Swift Explorer.
 
 ### 1.4.1 Activity 1: Crux
 
-1. Launch [!badge icon="resources/common/Stellarium-icon.png" text="Stellarium"](https://stellarium.org/)
+1. Launch [!badge icon="/resources/common/Stellarium-icon.png" text="Stellarium"](https://stellarium.org/)
 
 2. Set the time and date to 11 Jan 2022, 1:30 am.
 
@@ -810,7 +801,7 @@ $$
 $$
 where $\alpha$ is the angle between $\mathbf{r}$ and $\mathbf{v}$.
 
-![](<resources/Chapter 1/angularMomentum.png>)
+![](</resources/Chapter 1/angularMomentum.png>)
 
 From the diagram above, we see that 
 $$

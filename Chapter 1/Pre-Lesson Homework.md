@@ -4,10 +4,11 @@ layout: default
 icon: ":spiral_note_pad:"
 order: -1
 author:
-  - name: Matthew Sung
-    email: matthew.sung20@sps.nus.edu.sg
-    link: https://sps.nus.edu.sg/user/matthew.sung20/
-    avatar: https://sps.nus.edu.sg/wp-content/uploads/ultimatemember/171/profile_photo-190x190.jpg?1658781280
+  - name: Dr Lim Zhi Han
+    email: matlzh@nus.edu.sg
+    link: https://sps.nus.edu.sg/user/lim.zhihan/
+    avatar: https://sps.nus.edu.sg/wp-content/uploads/2019/06/logo_sps20.png
+date: 2022-07-30T01:21
 description: "Chapter 1 : Discovering our Universe"
 ---
 
@@ -34,7 +35,7 @@ write a short sentence for each to explain its meaning.
 | Azimuth          |         |
 
 ### 1.1.2 Stellarium
-Download the programme [!badge icon="../resources/common/Stellarium-icon.png" text="Stellarium"](https://stellarium.org/)
+Download the programme [!badge icon="/resources/common/Stellarium-icon.png" text="Stellarium"](https://stellarium.org/)
 
 
 1. Launch Stellarium. 
@@ -62,4 +63,4 @@ pressing Ctrl + Up or Down arrows.
 
 ### 1.1.3 Telescope
 
-Read the SPS telescope manual (for Nexstar 6SE).
+Read the [SPS telescope manual](</Telescope>) (for Nexstar 6SE).

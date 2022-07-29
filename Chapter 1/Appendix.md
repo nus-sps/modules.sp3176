@@ -32,14 +32,14 @@ $$
 $$
 where $\alpha$ is the angle between $\mathbf{r}$ and $\mathbf{v}$.
 
-![](<../resources/Chapter 1/angularMomentum.png>)
+![](</resources/Chapter 1/angularMomentum.png>)
 
 From the diagram above, we see that 
 $$
-v\sin\alpha dt =rd\theta
-$$
-$$
-v\sin\alpha =r\frac{d\theta}{dt}
+\begin{align*}
+v\sin\alpha\,dt & =rd\theta\\
+v\sin\alpha & =r\frac{d\theta}{dt}
+\end{align*}
 $$
 
 Putting this into the expression for the magnitude of angular momentum,

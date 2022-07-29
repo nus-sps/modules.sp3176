@@ -4,10 +4,11 @@ layout: default
 icon: ":globe_with_meridians:"
 order: -2
 author:
-  - name: Matthew Sung
-    email: matthew.sung20@sps.nus.edu.sg
-    link: https://sps.nus.edu.sg/user/matthew.sung20/
-    avatar: https://sps.nus.edu.sg/wp-content/uploads/ultimatemember/171/profile_photo-190x190.jpg?1658781280
+  - name: Dr Lim Zhi Han
+    email: matlzh@nus.edu.sg
+    link: https://sps.nus.edu.sg/user/lim.zhihan/
+    avatar: https://sps.nus.edu.sg/wp-content/uploads/2019/06/logo_sps20.png
+date: 2022-07-30T01:21
 description: "Chapter 1 : Discovering our Universe"
 ---
 
@@ -22,24 +23,17 @@ to record and study the seasons (to optimize agriculture activities),
 for navigation, or even for religious and political purposes. A few
 examples are listed below. 
 
-![**Nebra sky disk.** A bronze disk depicting the Sun, Moon, and
-32 stars including a star cluster, likely representing the Pleiades.
-The disk dated to 1600 BC was found in Saxony-Anhalt, Germany.](<../resources/Chapter 1/Nebra.jpg>)
 
-
-![**Nebra sky disk.** A bronze disk depicting the Sun, Moon, and
-32 stars including a star cluster, likely representing the Pleiades.
-The disk dated to 1600 BC was found in Saxony-Anhalt, Germany. Image credit: [J. M Bonnet Bidaud, F. Praderie, S. Whitfield](https://apod.nasa.gov/apod/ap090619.html)](<../resources/Chapter 1/Nebra.jpg>)
 
 ![**Nebra sky disk.** A bronze disk depicting the Sun, Moon, and
 32 stars including a star cluster, likely representing the Pleiades.
 The disk dated to 1600 BC was found in Saxony-Anhalt, Germany.
-Image credit: <a href="https://apod.nasa.gov/apod/ap090619.html">J. M Bonnet Bidaud, F. Praderie, S. Whitfield</a>](<../resources/Chapter 1/Nebra.jpg>)
+Image credit: <a href="https://apod.nasa.gov/apod/ap090619.html">J. M Bonnet Bidaud, F. Praderie, S. Whitfield</a>](</resources/Chapter 1/Nebra.jpg>)
 
 ### 1.2.2 Geocentric, Static Earth and Perfect Circles
 
-Greek philosopher Plato (424--348 BC) and later his student Aristotle
-(384--322 BC) advocated a model where the Earth is at the center
+Greek philosopher Plato (424-348 BC) and later his student Aristotle
+(384-322 BC) advocated a model where the Earth is at the center
 of the Universe, while the Moon, Sun and planets orbit in concentric
 circles around Earth. Although now we know that this model is wrong,
 what the ancient Greeks did was still highly commendable. They tried
@@ -82,7 +76,7 @@ back in the usual direction.
 ![**Path of Mars across the fixed stars in the night sky as seen from
 Earth.** From around August to October in 2003, the planet moved in
 the opposite way, from west (left) to east (right). Image credit:
-\protect\href{https://commons.wikimedia.org/w/index.php?curid=4662202}{Eugene Alvin Villar, CC BY-SA 4.0](<../resources/Chapter 1/retrogradeMotionMars.png>)
+<a href="https://commons.wikimedia.org/w/index.php?curid=4662202">Eugene Alvin Villar</a>](<../resources/Chapter 1/retrogradeMotionMars.png>)
 
 
 ### 1.2.4 Ptolemy's Solution: Circles within Circles
@@ -107,7 +101,7 @@ In more modern terms, Ptolemy decomposed a complicated periodic motion
 periodic motion. Does this sound like something you have learned before?
 
 Speaking of sound, to visualise with our ears Ptolemy's trick, run
-the following in [Wolfram|Alpha](https://www.wolframalpha.com/).
+the following in [!badge icon="/resources/common/WolframAlpha.svg" text="Wolfram|Alpha"](https://www.wolframalpha.com/).
 
 ```
 play sin(880 pi t) for 10 s
@@ -122,7 +116,7 @@ is analogous to Ptolemy's geocentric model with an epicycle. Hear
 for yourself to note the difference.
 
 ![Snapshots of simulated retrograde motion of a planet with Ptolemy's
-geocentric model with one epicycle. ](<../resources/Chapter 1/Ptolemy_retrograde.png>)
+geocentric model with one epicycle. ](</resources/Chapter 1/Ptolemy_retrograde.png>)
 
 
 ### 1.2.5 Heliocentric model
@@ -176,7 +170,7 @@ Tycho fell out of favour with the new Danish king and moved to Prague
 to begin work as Imperial Mathematician.
 
 ![Tycho Brahe's geo-heliocentric model. The Moon and Sun orbit the Earth
-while the other planets orbit the Sun. \protect\href{https://commons.wikimedia.org/wiki/File:Tychonian_system.svg}{Image credit: Fastfission, PD}](<../resources/Chapter 1/Tycho_system.PNG>)
+while the other planets orbit the Sun. Image credit: <a href="https://commons.wikimedia.org/wiki/File:Tychonian_system.svg">Fastfission</a>](</resources/Chapter 1/Tycho_system.PNG>)
 
 ### 1.2.7 Johannes Kepler and the Laws of Planetary Motion
 
@@ -211,7 +205,7 @@ center of the ellipse to its circumference, and $\epsilon$ is the
 eccentricity, which characterises how elongated the ellipse is. 
 
 ![Anatomy of an ellipse. To see how the parameters affect the shape
-of the ellipse, visualise it on \protect\href{https://www.desmos.com/calculator}{Desmos})(A0 Q6)](<../resources/Chapter 1/Ellipse.png>)
+of the ellipse, visualise it on [!badge icon="/resources/common/Desmos-icon.png" text="Desmos"](https://www.desmos.com/calculator)(A0 Q6)](</resources/Chapter 1/Ellipse.png>)
 
 The second law can be expressed mathematically by 
 $$

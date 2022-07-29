@@ -4,10 +4,11 @@ layout: default
 icon: ":telescope:"
 order: -3
 author:
-  - name: Matthew Sung
-    email: matthew.sung20@sps.nus.edu.sg
-    link: https://sps.nus.edu.sg/user/matthew.sung20/
-    avatar: https://sps.nus.edu.sg/wp-content/uploads/ultimatemember/171/profile_photo-190x190.jpg?1658781280
+  - name: Dr Lim Zhi Han
+    email: matlzh@nus.edu.sg
+    link: https://sps.nus.edu.sg/user/lim.zhihan/
+    avatar: https://sps.nus.edu.sg/wp-content/uploads/2019/06/logo_sps20.png
+date: 2022-07-30T01:21
 description: "Chapter 1 : Discovering our Universe"
 ---
 
@@ -33,9 +34,9 @@ to see that they are made up of millions of stars.
 [^1]: [Galilean moons](https://en.wikipedia.org/wiki/Galilean\_moons)
 
 ![Upper: Jupiter and the 4 Galilean moons taken with an amateur telescope.
-Image credit: \protect\href{https://commons.wikimedia.org/wiki/File:Jupiter-moons.jpg}{Jan Sandberg}.
-Lower: Millions of stars in Andromeda, taken by Hubble Space Telescope
-Image credit: \protect\href{https://www.nasa.gov/content/goddard/hubble-s-high-definition-panoramic-view-of-the-andromeda-galaxy}{NASA, ESA}.](<../resources/Chapter 1/Jupiter_M31.png>)
+Image credit: <a href="https://commons.wikimedia.org/wiki/File:Jupiter-moons.jpg">Jan Sandberg</a>.
+</br>Lower: Millions of stars in Andromeda, taken by Hubble Space Telescope
+Image credit: <a href="https://www.nasa.gov/content/goddard/hubble-s-high-definition-panoramic-view-of-the-andromeda-galaxy">NASA, ESA</a>.](</Resources/Chapter 1/Jupiter_M31.png>)
 
 A common misconception is that telescopes are used for magnifying
 objects. While telescope do magnify an image, this is not the primary
@@ -56,9 +57,10 @@ be classified into two types, namely Refractors and Reflectors. There
 are also two kinds of mounts, namely the Altitude-Azimuth (Alt-Az)
 and Equatorial mounts. 
 
++++ Refractors
 #### Refractors
 
-![](<../resources/Chapter 1/Keplerian2.png>)
+![](</resources/Chapter 1/Keplerian2.png>)
 
 A refracting telescope makes use of specially designed lenses to bend
 light from a distant object to a focus and form an image. The earliest
@@ -88,9 +90,10 @@ to bring the light rays into focus. This means that refractors with
 larger lenses and hence larger aperture sizes or diameters tend to
 be heavier and quite expensive. 
 
++++ Reflectors
 #### Reflectors
 
-![](<../resources/Chapter 1/Reflector2.png>)
+![](</resources/Chapter 1/Reflector2.png>)
 
 As its name implies, a reflector telescope makes use of curved mirrors
 that reflect light to a focus. The telescope was first introduced
@@ -117,7 +120,10 @@ may result in blurry or distorted images. Moreover, the large reflecting
 surface of the primary mirror may become tarnished when exposed to
 open air after years of usage. 
 
-![](<../resources/Chapter 1/SchmidtCassegrain2.png>)
++++ Schmidt-Cassegrain
+#### Schmidt-Cassegrain
+
+![](</resources/Chapter 1/SchmidtCassegrain2.png>)
 
 The Schmidt-Cassegrain is an upgraded version of the Cassegrain, a
 reflecting telescope introduced in 1672 by the French priest Laurent
@@ -130,7 +136,7 @@ much more accessible and enables the scope to be made much more compact
 to a Newtonian reflector. The Schmidt-Cassegrain differs from the
 usual Cassegrain by having an additional corrector lens at the front
 of the telescope. The purpose of this lens will be discussed later. 
-
++++
 
 ### 1.3.3 Telescope Mounts
 
@@ -342,6 +348,7 @@ and store. While a telescope with a larger aperture offers more light
 gathering power and a higher resolution power, it comes at the expense
 of being much bigger in size and heavier which are limited by the
 payload and size limit of the mount it uses. 
+
 ===
 
 ### 1.3.5 Reading a telescope specifications
@@ -373,6 +380,7 @@ large focal ratio implies smaller aperture, lower light gathering
 power as well as a narrower field of view (vice versa). For example,
 a telescope whose primary (objective) focal length is 5 times that
 of its aperture diameter has a f-number (focal ratio) of f/5. 
+
 +++ Resolving Power
 This is the measure of the ability to distinguish
 clearly small details of an object or two closely spaced from each
