@@ -12,9 +12,11 @@ date: 2022-07-25T20:54
 description: "Falling Apples and Orbiting Planets"
 ---
 
-> If I have seen further it is by standing on the shoulders of Giants.
->
->-- Isaac Newton
+:::quote
+If I have seen further it is by standing on the shoulders of Giants.
+
+\- Isaac Newton
+:::
 
 To study the motion of objects under the influence of forces, Newton
 developed a new branch of mathematics, now known as Calculus. Calculus
@@ -37,10 +39,10 @@ problem using Newton's laws.
 
 Before the lecture, you will read section [2.1](</Chapter 2/the apple>) to
 learn about how initial conditions affects motion of objects under
-gravitation. Most of the lecture (in week 2) will be spent on differential
-equations where we will first solve a few cases by hand,(analytically)
+gravitation. Most of the lecture (in week 2) will be spent on [differential
+equations](</Chapter 2/Science is a DE>) where we will first solve a few cases by hand,(analytically)
 and then introduce numerical methods (which you may recall learning
 them in SP2273). In the tutorial (in week 3), we will move on to study
-the case of a 2-body system and visualise the solution with animations
+the case of a [2-body system](</Chapter 2/Two-body>) and visualise the solution with animations
 that you make. If we have time left, we will do the discussion questions
 at the end.

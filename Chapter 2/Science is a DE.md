@@ -81,7 +81,7 @@ the chance of finding the particle around that position.
 $$
 -{\displaystyle \frac{\hbar^{2}}{2m}\frac{d^{2}\psi}{dx^{2}}}+\left(V(x)-E\right)\psi(x)=0
 $$
-
+---
 ### 2.2.2 Solving DEs Analytically
 
 #### 2.2.2.1 Case 1: Beer foam
@@ -215,7 +215,7 @@ $$
 x=c_{1}e^{i\sqrt{k/m}t}+c_{2}e^{-i\sqrt{k/m}t}
 $$
 
-Assuming the following \textbf{initial conditions}:
+Assuming the following **initial conditions**:
 $$
 \begin{align*}
 x(0) & =x_{0}\\
@@ -288,7 +288,8 @@ J & =\frac{1}{k_{1}}\frac{dR}{dt}=-\frac{1}{k_{1}}R_{0}\sqrt{k_{1}k_{2}}\sin(\sq
 $$
 
 Go to [Activity 2](<Chapter 2/In-Class Activities>).
-
+  
+---
 ### 2.2.3 Solving DEs Numerically
 
 We will use the simple Euler's method to numerically solve DEs. Simply

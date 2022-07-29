@@ -53,9 +53,7 @@ Take a close look at the code below. In you group, discuss and make
 sense of the code below. 
 ```
 GlowScript 2.2 VPython 
-
-#constants 
-
+#constants
 R=15e9
 Re=150e9
 Ms=2e30
@@ -113,7 +111,7 @@ while t<15000000000:
 
 ```
 
-Run the code in [Trinket](https://trinket.io/glowscript/7bdf9fcfab).
+Run the code in [!badge icon="/resources/common/trinket-logo.png" text="Trinket"](https://trinket.io/glowscript/7bdf9fcfab).
 
 In your program, change parameters one at a time and observe the difference
 in results. For example change the initial Earth momentum to 
@@ -125,7 +123,7 @@ Play around and record any notable ''discoveries''.
 
 
 
-Get an account in [Trinket](https://trinket.io). Sign in, create a new trinket
+Get an account in [!badge icon="/resources/common/trinket-logo.png" text="Trinket"](https://trinket.io). Sign in, create a new trinket
 program (select Glowscript) and copy and paste the the Sun-Earth code.
 Now the program is yours!
 

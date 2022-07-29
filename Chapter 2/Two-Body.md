@@ -21,17 +21,14 @@ and the Earth to illustrate.
 
 First fill in the following:
 
-Radius of Sun $R=$
-
-Average distance from Sun to Earth $R_{e}=$
-
-Mass of Sun $M_{s}=$
-
-Mass of Earth $M_{e}=$
-
-Gravitational constant $G=$
-
-Linear momentum of Earth $p_{e}=$
+| Constant                                   | Quantity |
+|--------------------------------------------|----------|
+| Radius of Sun $R$                          |          |
+| Average distance from Sun to Earth $R_{e}$ |          |
+| Mass of Sun $M_{s}$                        |          |
+| Mass of Earth $M_{e}$                      |          |
+| Gravitational constant $G$                 |          |
+| Linear momentum of Earth $p_{e}$           |          |
 
 (We can get $p_{e}$ by knowing that the Earth circles around the
 Sun in about 365 days. How?)

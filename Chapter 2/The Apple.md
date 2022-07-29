@@ -27,7 +27,7 @@ same type of force, you will probably get a reply like:
 > ''Oh yea gravity is Universal! It acts in the same way for both the apple and the Moon. It is just that the **initial conditions** were different, hence different paths exhibited.''
 
 The reply probably would not enlighten many people. To visualise and
-make sense of the above, I'll borrow the story used by [Leonhard Euler](https://en.wikipedia.org/wiki/Leonhard_Euler)(1707-1783)
+make sense of the above, I'll borrow the story used by [Leonhard Euler](https://en.wikipedia.org/wiki/Leonhard_Euler) (1707-1783)
 in one of his [letters to a German princess](https://link.springer.com/article/10.1007/s00283-021-10052-2). 
 
 There is a cannon on a cliff, positioned such that it is parallel
