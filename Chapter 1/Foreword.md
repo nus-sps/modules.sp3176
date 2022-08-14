@@ -46,6 +46,6 @@ use one to look at celestial objects.
 Before the lecture, you will self-learn some astronomy through Section
 [1.1](</Chapter 1/Pre-Lesson Homework>). During the lecture in week 1, we will go through parts (not all)
 of the content in Sections [1.2](</Chapter 1/Past Models of Our Universe/>) and [1.3](</Chapter 1/Introduction to Telescopes>) as well as [in-class Activities
-1 and 2](<Chapter 1/In-class Activities>). During tutorial in week 2, mentors will facilitate the discussion
-of question in Section [1.5](</Chapter 1/Discussion Questions>) and perform [Activity 3](<Chapter 1/In-class Activities>). Please attempt
+1 and 2](</Chapter 1/In-class Activities>). During tutorial in week 2, mentors will facilitate the discussion
+of question in Section [1.5](</Chapter 1/Discussion Questions>) and perform [Activity 3](</Chapter 1/In-class Activities>). Please attempt
 the discussion questions before the tutorial.
