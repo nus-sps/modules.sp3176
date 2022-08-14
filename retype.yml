@@ -3,7 +3,7 @@ output: .retype
 url: # Add your website address here
 branding:
   title: The Universe
-  label: v0.1
+  label: v1.0
 links:
 - text: SPS Website
   link: https://sps.nus.edu.sg/
@@ -16,5 +16,6 @@ links:
   icon: ":milky_way:"
 exclude:
   - "Archives"
+  - ""
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
