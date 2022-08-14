@@ -11,10 +11,10 @@ The notes for The Universe are also available for download.
 
 ## Notes
 
-| Chapter   | Link                                |
-|-----------|-------------------------------------|
-| Chapter 1 | Discovering the Universe            |
-| Chapter 2 | Falling Apples and Orbiting Planets |
+| Chapter   | Link                                                                                                  |
+|-----------|-------------------------------------------------------------------------------------------------------|
+| Chapter 1 | [Discovering the Universe](https://canvas.nus.edu.sg/files/33290/download?download_frd=1)             |
+| Chapter 2 | [Falling Apples and Orbiting Planets](https://canvas.nus.edu.sg/files/174994/download?download_frd=1) |
 | Chapter 3 | Atoms and Light                     |
 | Chapter 4 | Molecules                           |
 | Chapter 5 | Through the Looking Glass           |
@@ -24,10 +24,10 @@ The notes for The Universe are also available for download.
 
 ## Assignments
 
-| Assignment   | Link                                  |
-|--------------|---------------------------------------|
-| Assignment 0 | Murderous Mathematics                 |
-| Assignment 1 | Jupiter's Moon and the Speed of Light |
+| Assignment   | Link                                                                                                    |
+|--------------|---------------------------------------------------------------------------------------------------------|
+| Assignment 0 | [Murderous Mathematics](https://canvas.nus.edu.sg/files/33287/download?download_frd=1)                  |
+| Assignment 1 | [Jupiter's Moon and the Speed of Light](https://canvas.nus.edu.sg/files/173146/download?download_frd=1) |
 | Assignment 2 | Three Body Problem                    |
 | Assignment 3 | Distance to M100                      |
 | Assignment 4 | Cosmological Models                   |
@@ -35,12 +35,14 @@ The notes for The Universe are also available for download.
 
 ## Manuals and Addendums
 
-| Document         | Link |
-|------------------|------|
-| Telescope Manual | Link |
-|                  |      |
-|                  |      |
-|                  |      |
+| Document            | Link                                                                   |
+|---------------------|------------------------------------------------------------------------|
+| NexStar 6SE Manual  | [Link](https://canvas.nus.edu.sg/files/164434/download?download_frd=1) |
+| Dobsonian Manual    | [Link](https://canvas.nus.edu.sg/files/164435/download?download_frd=1) |
+| Astro Night         | Link |
+| Spectroscopy Manual | Link |
+| StarAnalyser Manual | [Link](https://canvas.nus.edu.sg/files/164436/download?download_frd=1) |
+    
 
 
 
