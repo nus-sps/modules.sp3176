@@ -45,7 +45,7 @@ $$
 
 Newton's Law of Gravitation: 
 $$
-{\bf F}=-\frac{GMm}{r^{2}}\hat{{\bf r}}
+{\bf F}=-\frac{GMm}{r^{2}}\hat{{ \bf r }}
 $$
 
 Force that the Sun exerts on the Earth:
@@ -88,4 +88,4 @@ d{\bf r} & =\\
 \end{align*}
 $$
 
-Go to [Activity 4](<Chapter 2/In-Class Activities>).
+Go to [Activity 4](</Chapter 2/In-Class Activities>).
