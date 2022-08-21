@@ -22,7 +22,7 @@ Observe the decay of beer foam and think of science.
 ### 2.4.2 Activity 2: Love plot
 
 For some chosen values of $R_{0},k_{1}$ and $k_{2}$, plot $R(t)$
-and $J(t)$ on the same graph on Desmos.
+and $J(t)$ on the same graph on [!badge icon="/resources/common/Desmos-icon.png" text="Desmos"](https://www.desmos.com/calculator).
 
 $$
 \begin{align*}
