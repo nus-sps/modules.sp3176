@@ -43,9 +43,13 @@ $$
 e^{i(kx-\omega t)}=
 $$
 
-**Read** Ervin's article on Fourier Representation. Find in the
-Canvas $\rightarrow$ SP3176 $\rightarrow$ Files $\rightarrow$ Lecture
-Notes.
+**Read** Ervin's article on [Fourier Representation](fourier_representation.html). 
+You can also find it in the Canvas $\rightarrow$ SP3176 $\rightarrow$ Files $\rightarrow$ Lecture Notes.
+!!!info Using Safari?
+Enable Cross-Site Tracking to download.
+
+Safari $\rightarrow$ Preferences $\rightarrow$ Privacy.
+!!!
 
 ### 3.1.2 Force and potential
 

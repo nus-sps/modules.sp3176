@@ -85,7 +85,7 @@ in nature.
 
 Heinrich Hertz, in 1882, experimentally generated electromagnetic
 waves and showed that they travelled through space at the speed of
-light. Essentially he created the first radio `antenna' and `generator'.
+light. Essentially he created the first radio 'antenna' and 'generator'.
 His work proved Maxwell's equations, which were not widely accepted
 then, as well as unified the study of light, electricity and magnetism
 into the same concept. Funnily enough, when asked about the practical
@@ -129,7 +129,7 @@ light. This quantity is conventionally denoted as $c$, and has the
 value $c=299792458\text{ ms}^{-1}$. Since the speed of light does
 not change at all (bar some circumstances), light can be entirely
 (and is often the case) described with only one of the two variables;
-application of equation \ref{eq:wavespeed} would govern the other.
+application of equation 3 would govern the other.
 The wave-like nature of light motivates us to mathematically describe
 light in the form of a wave. In its most general form, the equation
 of a periodic wave looks like:
@@ -230,7 +230,7 @@ in the form of aperture (hole) or edge. The Huygens-Fresnel principle
 states that every point on a wavefront can be treated as a source
 of a circular wave. When the waves travel parallel, each point on
 a wavefront emits its own circular wavefront, and cancel out because
-of \textit{superposition} (discussed right after this.), remaining
+of *superposition* (discussed right after this.), remaining
 parallel. However, if the parallel wavefronts are blocked by any opaque
 material, some sections of a parallel wavefront can no longer cancel
 each other out. As such one can have a diffraction phenomenon as such:
@@ -245,14 +245,14 @@ their amplitudes can be added up. As such, the phases of the waves
 are important when superposing them; it can determine the amplitude
 of the individual waves at that point.
 
-When two waves are in phase, such that their phase \textit{differences}
+When two waves are in phase, such that their phase *differences*
 are even multiples of $\pi$, then they are said to constructively
 interfere and will add up. On the other hand, if they are odd integer
 multiples of $\pi$, then they destructively interfere with each other
 and results in a minimum. It is from the superposition principle that
 the Huygens-Fresnel principle explains and accounts for diffraction.
 
-**Go to [Activity 1](<In-Class Activities>).**
+**Go to [Activity 1](</Chapter 3/In Class Activities/#activity-1>).**
 
 #### Diffraction Pattern
 
@@ -291,7 +291,7 @@ Diffraction gratings can arise from (regular) imperfections on a surface;
 a metal ruler or even your phone screen can serve as a diffraction
 grating.
 
-**Go to [Activity 2](<In-Class Activities>).**
+**Go to [Activity 2](</Chapter 3/In Class Activities/#activity-2>).**
 
 ### 3.2.4 Wave-Particle duality of Light
 
@@ -318,20 +318,20 @@ reinvigorated the corpuscular theory of light.
 In modern physics, we also treat light as quantized particles, capable
 of many things a classical particle could do such as carry momentum.
 Today, we understand that in the quantum regime, light exhibits both
-particle and wave nature, famously known as the \textit{wave-particle
-duality.} The Planck-Einstein concept of light as a particle states
+particle and wave nature, famously known as the *wave-particle
+duality.* The Planck-Einstein concept of light as a particle states
 that a single light particle known as the photon, carries a packet
 of energy $E$ equivalent to 
 $$
 \begin{align}
-E=hf=h\frac{c}{\lambda}\label{eq:light_momentum}
+E=hf=h\frac{c}{\lambda}
 \end{align}
 $$
 
 Where $h$ is the Planck's constant, $6.626\times10^{-34}\text{ Js}^{-1}$
-and the last equality holds from substitution using equation \ref{eq:wavespeed}.
+and the last equality holds from substitution using equation 3.
 This extended further meaning of a wave's properties into its particulate
 nature: the frequency of light not only denotes the rate at which
 it repeats, but also the energy it carries. 
 
-**Go to [Activity 3](<In-Class Activities>).**
+**Go to [Activity 3](</Chapter 3/In Class Activities/#activity-3>).**
