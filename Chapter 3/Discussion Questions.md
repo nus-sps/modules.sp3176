@@ -47,7 +47,7 @@ findings of the photoelectric effect experiment?
 
 </br>
 
-5. Derive the Rydberg formula Eq.(\ref{eq:rydberg}) using the Bohr
+5. Derive the Rydberg formula Eq.([Spectroscopy(1)](</Chapter 3/Spectroscopy/#rydberg>)) using the Bohr
 model. Evaluate the Rydberg constant $R$. 
 
 </br>
@@ -59,21 +59,21 @@ model. Evaluate the Rydberg constant $R$.
 ---
 
 7. Derive the allowed energy states and wavefunction for particle
-in a box given Eq.(\ref{eq:piabEnergyStates}) and Eq.(\ref{eq:piabWavefunction}). 
+in a box given Eq.([QM(15)](</Chapter 3/Quantum Mechanics/#piabEnergyStates>)) and Eq.([QM(16)](</Chapter 3/Quantum Mechanics/#piabWavefunction>)). 
 
 Guiding steps, if you need: 
 
-- Insert our guess solution Eq.(\ref{eq:ansatz}) into Eq.(\ref{eq:inside_box})
-and to obtain the general solution Eq(\ref{eq:PiabGenSol}); 
-\item Apply the boundary conditions to the general solution. Using Eq.(\ref{eq:piabBC1}),
-you will find a sine function. Using Eq.(\ref{eq:piabBC2}) you will
+- Insert our guess solution Eq.([QM(13)](</Chapter 3/Quantum Mechanics/#ansatz>)) into Eq.([QM(9)](</Chapter 3/Quantum Mechanics/#inside_box>))
+and to obtain the general solution Eq([QM(14)](</Chapter 3/Quantum Mechanics/#PiabGenSol>)); 
+- Apply the boundary conditions to the general solution. Using Eq.([QM(11)](</Chapter 3/Quantum Mechanics/#PiabBC1>)),
+you will find a sine function. Using Eq.([QM(12)](</Chapter 3/Quantum Mechanics/#PiabBC2>)) you will
 find that only integer values of $\pi$ are allowed for the argument
 in the sine function.
 - Do a bit of algebra to get the allowed energy states.
--  Use the normalising condition given in Eq.(\ref{eq:normalisation})
+-  Use the normalising condition given in Eq.([QM(8)](</Chapter 3/Quantum Mechanics/#normalisation>))
 to find the coefficient $A$.
 
 </br>
 
-8. Graph the particle in a box wavefunction for $n=$1, 2 and 3. Label
+8. Graph the particle in a box wavefunction for $ n= $ 1, 2 and 3. Label
 each sketch with the value of energy associated with each $n$.

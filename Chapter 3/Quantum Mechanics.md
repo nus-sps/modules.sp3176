@@ -52,16 +52,16 @@ and boundary conditions it is in.
 
 He starts by assuming that the wavefunction can take on a simple but
 general wave-like expression
-:::equation { #generalWave }
+
+<span id="generalWave"></span>
 $$
 \begin{equation}
 \Psi(x,t)=\psi_{0}e^{i(kx-\omega t)}
 \end{equation}
 $$
-:::
 where $\psi_{0}$ is the amplitude[^3]
 of the wave, $k=2\pi/\lambda$ is the wavenumber and $\omega=2\pi f$
-is the angular frequency (see Eq.(\ref{eq:wavenumber}) and (\ref{eq:angfreq})).
+is the angular frequency (see Eq.([Light(5)](</Chapter 3/Light#wavenumber>)) and ([Light(6)](</Chapter 3/Light#angfreq>)).
 [^3]: The amplitude can be a complex number, as opposed to real.
 
 The derivatives of $\Psi$ are 
@@ -82,13 +82,16 @@ p & =\frac{h}{\lambda}=\hbar k
 \end{align*}
 $$
 The above derivatives can be rewritten as 
-:::equation { #diffPsiTime }
+<span id="diffPsiTime"></span>
+<span id="diffPsiTimeAgain"></span>
+<span id="diffPsiPos"></span>
+<span id="diffPsiPosAgain"></span>
 $$
 \begin{align}
-\frac{\partial\Psi}{\partial t} & =-i\frac{E}{\hbar}\Psi\label{eq:diffPsiTime}\\
-\frac{\partial^{2}\Psi}{\partial t^{2}} & =-\frac{E^{2}}{\hbar^{2}}\Psi\label{eq:diffPsiTimeAgain}\\
-\frac{\partial\Psi}{\partial x} & =i\frac{p}{\hbar}\Psi\label{eq:diffPsiPos}\\
-\frac{\partial^{2}\Psi}{\partial x^{2}} & =-\frac{p^{2}}{\hbar^{2}}\Psi\label{eq:diffPsiPosAgain}
+\frac{\partial\Psi}{\partial t} & =-i\frac{E}{\hbar}\Psi\\
+\frac{\partial^{2}\Psi}{\partial t^{2}} & =-\frac{E^{2}}{\hbar^{2}}\Psi\\
+\frac{\partial\Psi}{\partial x} & =i\frac{p}{\hbar}\Psi\\
+\frac{\partial^{2}\Psi}{\partial x^{2}} & =-\frac{p^{2}}{\hbar^{2}}\Psi
 \end{align}
 $$
 
@@ -99,16 +102,17 @@ $$
 E & =\frac{p^{2}}{2m}+V(x)
 \end{align*}
 $$
-Multiply throughout by $\Psi$ and using Eq.(\ref{eq:diffPsiTime})
-and (\ref{eq:diffPsiPosAgain}), we have 
+Multiply throughout by $\Psi$ and using Eq.([2](#diffPsiTime))
+and ([5](diffPsiPosAgain)), we have 
+<span id="SchrodingerEq"></span>
 $$
 \begin{align}
 E\Psi & =\frac{p^{2}}{2m}\Psi+V(x)\,\Psi\nonumber \\
-i\hbar\frac{\partial\Psi}{\partial t} & =-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\Psi}{\partial x^{2}}+V(x)\,\Psi\label{eq:SchrodingerEq}
+i\hbar\frac{\partial\Psi}{\partial t} & =-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\Psi}{\partial x^{2}}+V(x)\,\Psi
 \end{align}
 $$
 
-The differential equation Eq.(\ref{eq:SchrodingerEq}) is known as
+The differential equation Eq.([6](#SchrodingerEq)) is known as
 the Schrödinger's equation (SE). Different systems will have a different
 potential energy landscape $V(x)$ and a different set of boundary
 conditions. By finding the solution of the SE, ie $\Psi(x,t)$, one
@@ -121,7 +125,7 @@ the "stationary solutions" such as the standing waves mentioned
 in the previous section, then it is beneficial to remove time from
 the SE.
 
-To do so, we go back to the assumed general wavefunction in Eq.(\ref{eq:generalWave})
+To do so, we go back to the assumed general wavefunction in Eq.([1](#generalWave))
 and rewrite it as 
 $$
 \begin{align*}
@@ -135,11 +139,12 @@ $$
 i\hbar\frac{\partial\psi(x)e^{-i\omega t}}{\partial t} & =-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)e^{-i\omega t}}{\partial x^{2}}+V(x)\,\psi(x)e^{-i\omega t}\nonumber \\
 i\hbar(-i\omega)e^{-i\omega t}\psi(x) & =-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}e^{-i\omega t}+V(x)\,\psi(x)e^{-i\omega t}\nonumber \\
 E\psi(x) & =-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}+V(x)\,\psi(x)\nonumber \\
-\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V(x)\right)\,\psi(x) & =E\,\psi(x)\label{eq:timeIndSE}
+\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V(x)\right)\,\psi(x) & =E\,\psi(x)
 \end{align}
 $$
+<span id="timeIndSE"></span>
 
-Eq.(\ref{eq:timeIndSE}) is known as the time-independent Schrödinger
+Eq.([7](timeIndSE)) is known as the time-independent Schrödinger
 equation. This equation is the one that will allow us to calculate
 the allowed discrete energy states of matter (such as electrons) in
 the atom or other systems. 
@@ -178,12 +183,13 @@ is near zero.](</Resources/Chapter 3/wavefunctionPDF.png>)
 
 With the intepretation of $\left|\Psi\right|^{2}$ as a probability
 density function, we have the property that
+<span id="normalisation"></span>
 $$
 \begin{equation}
-\int_{-\infty}^{\infty}\left|\Psi(x,t)\right|^{2}dx=1,\label{eq:normalisation}
+\int_{-\infty}^{\infty}\left|\Psi(x,t)\right|^{2}dx=1,
 \end{equation}
 $$
-Eq.(\ref{eq:normalisation}) is a statement that says that $\left|\Psi\right|^{2}$
+Eq.([8](#normalisation)) is a statement that says that $\left|\Psi\right|^{2}$
 is normalised, which simply means that all probabilities add up to
 1. 
 
@@ -227,10 +233,11 @@ $$
 \left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V(x)\right)\,\psi(x)=E\psi(x)
 $$
 
-Inside the box $0<x<L$ where $V=0,$we have 
+Inside the box $0<x<L$ where $V=0,$we have
+<span id="inside_box"></span>
 $$
 \begin{equation}
--\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}=E\psi(x)\label{eq:inside_box}
+-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}=E\psi(x)
 \end{equation}
 $$
 and the wavefunction outside the box must obey 
@@ -244,10 +251,12 @@ We can make an educated assumption that the wavefunction outside the
 box must be zero such that Schrodinger's equation still holds\footnote{As physicists we sometimes just take infinity times zero to be zero.}
 (because $0=0$). This also gives us the boundary conditions of the
 problem:
+<span id="piabBC1"></span>
+<span id="piabBC2"></span>
 $$
 \begin{align}
-\psi(0) & =0\label{eq:piabBC1}\\
-\psi(L) & =0\label{eq:piabBC2}
+\psi(0) & =0\\
+\psi(L) & =0
 \end{align}
 $$
 But now, what about the wavefunction inside the box?
@@ -255,17 +264,19 @@ But now, what about the wavefunction inside the box?
 We can guess the solution must resemble something of form (recall
 the restoring force case in Chapter 2 and see the similarity of the
 equations)
+<span id="ansatz"></span>
 $$
 \begin{equation}
-\psi(x)=ce^{\lambda x}\label{eq:ansatz}
+\psi(x)=ce^{\lambda x}
 \end{equation}
 $$
 
 Putting the guess solution into the SE, we obtain the general solution
 to be 
+<span id="PiabGenSol"></span>
 $$
 \begin{equation}
-\psi(x)=c_{1}e^{ikx}+c_{2}e^{-ikx}\label{eq:PiabGenSol}
+\psi(x)=c_{1}e^{ikx}+c_{2}e^{-ikx}
 \end{equation}
 $$
 where 
@@ -273,7 +284,7 @@ $$
 k={\displaystyle \sqrt{\frac{2mE}{\hbar^{2}}}}
 $$
 
-Applying the boundary conditions Eq.(\ref{eq:piabBC1}) and (\ref{eq:piabBC2}),
+Applying the boundary conditions Eq.([11](#piabBC1)) and ([12](#piabBC2)),
 we will find that 
 $$
 c_{1}=-c_{2}
@@ -286,21 +297,22 @@ where $n$ takes positive integer values. Consequently
 $$
 \psi(x)=A\sin kx
 $$
-and 
+and <span id="piabEnergyStates"></span>
 $$
 \begin{equation}
-E=\frac{\hbar^{2}n^{2}\pi^{2}}{2mL^{2}}\label{eq:piabEnergyStates}
+E=\frac{\hbar^{2}n^{2}\pi^{2}}{2mL^{2}}
 \end{equation}
 $$
 
-$A$ can be determined by normalising the wavefunction with Eq.(\ref{eq:normalisation}).
-Finally the wavefunction of the particle in a box is 
+$A$ can be determined by normalising the wavefunction with Eq.([8](#normalisation)).
+Finally the wavefunction of the particle in a box is
+<span id="piabWavefunction"></span>
 $$
 \begin{equation}
-\psi(x)=\sqrt{\frac{2}{L}}\sin\left(\frac{n\pi}{L}x\right)\label{eq:piabWavefunction}
+\psi(x)=\sqrt{\frac{2}{L}}\sin\left(\frac{n\pi}{L}x\right)
 \end{equation}
 $$
-and it's allowed energy levels are given by Eq.(\ref{eq:piabEnergyStates}).
+and it's allowed energy levels are given by Eq.([15](#piabEnergyStates)).
 
 Also important is to recall that $n$ takes only positive integer
 values, thus effectively quantising the energy states and wavefunction.
@@ -332,9 +344,10 @@ the reduced mass in the next chapter. Meanwhile, in here, since the
 mass of the proton $m_{p}$ is much larger than the mass of the electrom
 $m_{e,}$we have $\mu\approx m_{e}$. We can concise the notation
 and state that the SE of the hydrogen atom is 
+<span id="HatomSE"></span>
 $$
 \begin{equation}
-\left[-\frac{\hbar^{2}}{2m_{e}}\nabla^{2}-\frac{1}{4\pi\epsilon_{0}}\frac{e^{2}}{r}\right]\psi=E\,\psi\label{eq:HatomSE}
+\left[-\frac{\hbar^{2}}{2m_{e}}\nabla^{2}-\frac{1}{4\pi\epsilon_{0}}\frac{e^{2}}{r}\right]\psi=E\,\psi
 \end{equation}
 $$
 

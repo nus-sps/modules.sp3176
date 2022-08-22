@@ -148,6 +148,9 @@ $A$ is known as the amplitude, $\phi$ the phase of the wave, $k$
 the angular wavenumber and $\omega$ the angular frequency. $k$ and
 $\omega$ are related to wavelenght and frequency via the following
 equations;
+<span id="wavenumber"></span>
+<span id="angfreq"></span>
+
 $$
 \begin{align}
 k & =2\pi/\lambda\\

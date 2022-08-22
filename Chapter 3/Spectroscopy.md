@@ -54,6 +54,7 @@ scientists observed that their emission spectra were discrete and
 not continuous. No one was able to explain why, even though many empirical
 observations and formulae were written. One famous example is the
 Rydberg formula by Johannes Rydberg: 
+<span id="rydberg"></span>
 $$
 \begin{align}
 \frac{1}{\lambda}=RZ^{2}\left(\frac{1}{n_{1}^{2}}-\frac{1}{n_{2}^{2}}\right)
