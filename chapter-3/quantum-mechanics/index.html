@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.714456379764">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.714481074445">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,11 +30,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.714456379764" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.714481074445" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.714456379764" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.714481074445" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.714456379764" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.714481074445" data-turbo-eval="false" defer></script>
     <link href="../../resources/css/katex.css?v=2.4.0" rel="stylesheet" />
     <script id="katex-js" type="text/javascript" src="../../resources/js/katex.js?v=2.4.0" defer></script>
 
@@ -320,14 +320,13 @@ sought to find a differential equation that relates how the derivatives
 and boundary conditions it is in.</p>
 <p>He starts by assuming that the wavefunction can take on a simple but
 general wave-like expression</p>
-<div id="generalWave" class="equation">
+<p><span id="generalWave"></span></p>
 <div class="math"><pre>\begin{equation}
 \Psi(x,t)=\psi_{0}e^{i(kx-\omega t)}
 \end{equation}</pre></div>
-</div>
-<p eq:wavenumber="" eq:angfreq="">where <span class="math">\psi_{0}</span> is the amplitude<a id="fnref:3" href="#fn:3" class="footnote-ref"><sup>3</sup></a>
+<p>where <span class="math">\psi_{0}</span> is the amplitude<a id="fnref:3" href="#fn:3" class="footnote-ref"><sup>3</sup></a>
 of the wave, <span class="math">k=2\pi/\lambda</span> is the wavenumber and <span class="math">\omega=2\pi f</span>
-is the angular frequency (see Eq.(\ref) and (\ref)).</p>
+is the angular frequency (see Eq.(<a href="../light/#wavenumber">Light(5)</a>) and (<a href="../light/#angfreq">Light(6)</a>).</p>
 <p>The derivatives of <span class="math">\Psi</span> are</p>
 <div class="math"><pre>\begin{align*}
 \frac{\partial\Psi}{\partial t} &amp; =-i\omega\psi_{0}e^{i(kx-\omega t)}=-i\omega\Psi\\
@@ -340,26 +339,30 @@ is the angular frequency (see Eq.(\ref) and (\ref)).</p>
 E &amp; =hf=\hbar\omega\\
 p &amp; =\frac{h}{\lambda}=\hbar k
 \end{align*}</pre></div>
-<p>The above derivatives can be rewritten as</p>
-<div id="diffPsiTime" class="equation">
+<p>The above derivatives can be rewritten as
+<span id="diffPsiTime"></span>
+<span id="diffPsiTimeAgain"></span>
+<span id="diffPsiPos"></span>
+<span id="diffPsiPosAgain"></span></p>
 <div class="math"><pre>\begin{align}
-\frac{\partial\Psi}{\partial t} &amp; =-i\frac{E}{\hbar}\Psi\label{eq:diffPsiTime}\\
-\frac{\partial^{2}\Psi}{\partial t^{2}} &amp; =-\frac{E^{2}}{\hbar^{2}}\Psi\label{eq:diffPsiTimeAgain}\\
-\frac{\partial\Psi}{\partial x} &amp; =i\frac{p}{\hbar}\Psi\label{eq:diffPsiPos}\\
-\frac{\partial^{2}\Psi}{\partial x^{2}} &amp; =-\frac{p^{2}}{\hbar^{2}}\Psi\label{eq:diffPsiPosAgain}
+\frac{\partial\Psi}{\partial t} &amp; =-i\frac{E}{\hbar}\Psi\\
+\frac{\partial^{2}\Psi}{\partial t^{2}} &amp; =-\frac{E^{2}}{\hbar^{2}}\Psi\\
+\frac{\partial\Psi}{\partial x} &amp; =i\frac{p}{\hbar}\Psi\\
+\frac{\partial^{2}\Psi}{\partial x^{2}} &amp; =-\frac{p^{2}}{\hbar^{2}}\Psi
 \end{align}</pre></div>
 <p>Using a total energy consideration</p>
 <div class="math"><pre>\begin{align*}
 \text{Total energy} &amp; =\text{Kinetic energy }+\text{Potential energy}\\
 E &amp; =\frac{p^{2}}{2m}+V(x)
 \end{align*}</pre></div>
-<p eq:diffPsiTime="" eq:diffPsiPosAgain="">Multiply throughout by <span class="math">\Psi</span> and using Eq.(\ref)
-and (\ref), we have</p>
+<p>Multiply throughout by <span class="math">\Psi</span> and using Eq.(<doc-anchor-trigger to="#diffPsiTime">2</doc-anchor-trigger>)
+and (<a href="diffPsiPosAgain">5</a>), we have
+<span id="SchrodingerEq"></span></p>
 <div class="math"><pre>\begin{align}
 E\Psi &amp; =\frac{p^{2}}{2m}\Psi+V(x)\,\Psi\nonumber \\
-i\hbar\frac{\partial\Psi}{\partial t} &amp; =-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\Psi}{\partial x^{2}}+V(x)\,\Psi\label{eq:SchrodingerEq}
+i\hbar\frac{\partial\Psi}{\partial t} &amp; =-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\Psi}{\partial x^{2}}+V(x)\,\Psi
 \end{align}</pre></div>
-<p eq:SchrodingerEq="">The differential equation Eq.(\ref) is known as
+<p>The differential equation Eq.(<doc-anchor-trigger to="#SchrodingerEq">6</doc-anchor-trigger>) is known as
 the Schrödinger&#x27;s equation (SE). Different systems will have a different
 potential energy landscape <span class="math">V(x)</span> and a different set of boundary
 conditions. By finding the solution of the SE, ie <span class="math">\Psi(x,t)</span>, one
@@ -370,7 +373,7 @@ in both time <span class="math">t</span> and position <span class="math">x</span
 the &quot;stationary solutions&quot; such as the standing waves mentioned
 in the previous section, then it is beneficial to remove time from
 the SE.</p>
-<p eq:generalWave="">To do so, we go back to the assumed general wavefunction in Eq.(\ref)
+<p>To do so, we go back to the assumed general wavefunction in Eq.(<doc-anchor-trigger to="#generalWave">1</doc-anchor-trigger>)
 and rewrite it as</p>
 <div class="math"><pre>\begin{align*}
 \Psi(x,t) &amp; =\psi_{0}e^{ikx}e^{-i\omega t}\\
@@ -381,9 +384,10 @@ and rewrite it as</p>
 i\hbar\frac{\partial\psi(x)e^{-i\omega t}}{\partial t} &amp; =-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)e^{-i\omega t}}{\partial x^{2}}+V(x)\,\psi(x)e^{-i\omega t}\nonumber \\
 i\hbar(-i\omega)e^{-i\omega t}\psi(x) &amp; =-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}e^{-i\omega t}+V(x)\,\psi(x)e^{-i\omega t}\nonumber \\
 E\psi(x) &amp; =-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}+V(x)\,\psi(x)\nonumber \\
-\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V(x)\right)\,\psi(x) &amp; =E\,\psi(x)\label{eq:timeIndSE}
+\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V(x)\right)\,\psi(x) &amp; =E\,\psi(x)
 \end{align}</pre></div>
-<p eq:timeIndSE="">Eq.(\ref) is known as the time-independent Schrödinger
+<p><span id="timeIndSE"></span></p>
+<p>Eq.(<a href="timeindse">7</a>) is known as the time-independent Schrödinger
 equation. This equation is the one that will allow us to calculate
 the allowed discrete energy states of matter (such as electrons) in
 the atom or other systems.</p>
@@ -422,11 +426,12 @@ is near zero.</figcaption>
 </figure>
 </p>
 <p>With the intepretation of <span class="math">\left|\Psi\right|^{2}</span> as a probability
-density function, we have the property that</p>
+density function, we have the property that
+<span id="normalisation"></span></p>
 <div class="math"><pre>\begin{equation}
-\int_{-\infty}^{\infty}\left|\Psi(x,t)\right|^{2}dx=1,\label{eq:normalisation}
+\int_{-\infty}^{\infty}\left|\Psi(x,t)\right|^{2}dx=1,
 \end{equation}</pre></div>
-<p eq:normalisation="">Eq.(\ref) is a statement that says that <span class="math">\left|\Psi\right|^{2}</span>
+<p>Eq.(<doc-anchor-trigger to="#normalisation">8</doc-anchor-trigger>) is a statement that says that <span class="math">\left|\Psi\right|^{2}</span>
 is normalised, which simply means that all probabilities add up to
 1.</p>
 <p>One can go further into the statistical interpretation by looking
@@ -444,10 +449,7 @@ wavefunctions and allowed energy states..</p>
 <p>The particle in a box problem is a thought experiment made by Schrödinger
 to illustrate the basics of &#x27;motion&#x27; in the quantum world. In this
 section, we will solve the time-independent SE for the particle in
-box problem[^4].
-[^4]: What &#x27;solving&#x27; means to physics is that we have to give a (as complete
-as possible) description of the physical system in question, which
-is usually aided using mathematical equations.</p>
+box problem<a id="fnref:4" href="#fn:4" class="footnote-ref"><sup>4</sup></a>.</p>
 <p>The formal way to state the problem is to ask what happens to the
 wavefunction of a single particle along a 1D line when subjected to
 the following boundary conditions:</p>
@@ -462,9 +464,10 @@ time.</p>
 Later we will see what happens when the barriers are finite.</p>
 <p>Recall that Schrödinger&#x27;s equation states that</p>
 <div class="math"><pre>\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V(x)\right)\,\psi(x)=E\psi(x)</pre></div>
-<p>Inside the box <span class="math">0&lt;x&lt;L</span> where $V=0,$we have</p>
+<p>Inside the box <span class="math">0&lt;x&lt;L</span> where $V=0,$we have
+<span id="inside_box"></span></p>
 <div class="math"><pre>\begin{equation}
--\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}=E\psi(x)\label{eq:inside_box}
+-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}=E\psi(x)
 \end{equation}</pre></div>
 <p>and the wavefunction outside the box must obey</p>
 <div class="math"><pre>\begin{equation}
@@ -473,42 +476,47 @@ Later we will see what happens when the barriers are finite.</p>
 <p As="" physicists="" we="" sometimes="" just="" take="" infinity="" times="" zero="" to="" be="" zero.="">We can make an educated assumption that the wavefunction outside the
 box must be zero such that Schrodinger&#x27;s equation still holds\footnote
 (because <span class="math">0=0</span>). This also gives us the boundary conditions of the
-problem:</p>
+problem:
+<span id="piabBC1"></span>
+<span id="piabBC2"></span></p>
 <div class="math"><pre>\begin{align}
-\psi(0) &amp; =0\label{eq:piabBC1}\\
-\psi(L) &amp; =0\label{eq:piabBC2}
+\psi(0) &amp; =0\\
+\psi(L) &amp; =0
 \end{align}</pre></div>
 <p>But now, what about the wavefunction inside the box?</p>
 <p>We can guess the solution must resemble something of form (recall
 the restoring force case in Chapter 2 and see the similarity of the
-equations)</p>
+equations)
+<span id="ansatz"></span></p>
 <div class="math"><pre>\begin{equation}
-\psi(x)=ce^{\lambda x}\label{eq:ansatz}
+\psi(x)=ce^{\lambda x}
 \end{equation}</pre></div>
 <p>Putting the guess solution into the SE, we obtain the general solution
-to be</p>
+to be
+<span id="PiabGenSol"></span></p>
 <div class="math"><pre>\begin{equation}
-\psi(x)=c_{1}e^{ikx}+c_{2}e^{-ikx}\label{eq:PiabGenSol}
+\psi(x)=c_{1}e^{ikx}+c_{2}e^{-ikx}
 \end{equation}</pre></div>
 <p>where</p>
 <div class="math"><pre>k={\displaystyle \sqrt{\frac{2mE}{\hbar^{2}}}}</pre></div>
-<p eq:piabBC1="" eq:piabBC2="">Applying the boundary conditions Eq.(\ref) and (\ref),
+<p>Applying the boundary conditions Eq.(<doc-anchor-trigger to="#piabBC1">11</doc-anchor-trigger>) and (<doc-anchor-trigger to="#piabBC2">12</doc-anchor-trigger>),
 we will find that</p>
 <div class="math"><pre>c_{1}=-c_{2}</pre></div>
 <p>and</p>
 <div class="math"><pre>kL=n\pi</pre></div>
 <p>where <span class="math">n</span> takes positive integer values. Consequently</p>
 <div class="math"><pre>\psi(x)=A\sin kx</pre></div>
-<p>and</p>
+<p>and <span id="piabEnergyStates"></span></p>
 <div class="math"><pre>\begin{equation}
-E=\frac{\hbar^{2}n^{2}\pi^{2}}{2mL^{2}}\label{eq:piabEnergyStates}
+E=\frac{\hbar^{2}n^{2}\pi^{2}}{2mL^{2}}
 \end{equation}</pre></div>
-<p eq:normalisation=""><span class="math">A</span> can be determined by normalising the wavefunction with Eq.(\ref).
-Finally the wavefunction of the particle in a box is</p>
+<p><span class="math">A</span> can be determined by normalising the wavefunction with Eq.(<doc-anchor-trigger to="#normalisation">8</doc-anchor-trigger>).
+Finally the wavefunction of the particle in a box is
+<span id="piabWavefunction"></span></p>
 <div class="math"><pre>\begin{equation}
-\psi(x)=\sqrt{\frac{2}{L}}\sin\left(\frac{n\pi}{L}x\right)\label{eq:piabWavefunction}
+\psi(x)=\sqrt{\frac{2}{L}}\sin\left(\frac{n\pi}{L}x\right)
 \end{equation}</pre></div>
-<p eq:piabEnergyStates="">and it&#x27;s allowed energy levels are given by Eq.(\ref).</p>
+<p>and it&#x27;s allowed energy levels are given by Eq.(<doc-anchor-trigger to="#piabEnergyStates">15</doc-anchor-trigger>).</p>
 <p>Also important is to recall that <span class="math">n</span> takes only positive integer
 values, thus effectively quantising the energy states and wavefunction.
 For this reason, <span class="math">n</span> is known as the quantum number for particle
@@ -533,9 +541,10 @@ V(r)=-\frac{1}{4\pi\epsilon_{0}}\frac{e^{2}}{r}=-\frac{1}{4\pi\epsilon_{0}}\frac
 the reduced mass in the next chapter. Meanwhile, in here, since the
 mass of the proton <span class="math">m_{p}</span> is much larger than the mass of the electrom
 $m_{e,}$we have <span class="math">\mu\approx m_{e}</span>. We can concise the notation
-and state that the SE of the hydrogen atom is</p>
+and state that the SE of the hydrogen atom is
+<span id="HatomSE"></span></p>
 <div class="math"><pre>\begin{equation}
-\left[-\frac{\hbar^{2}}{2m_{e}}\nabla^{2}-\frac{1}{4\pi\epsilon_{0}}\frac{e^{2}}{r}\right]\psi=E\,\psi\label{eq:HatomSE}
+\left[-\frac{\hbar^{2}}{2m_{e}}\nabla^{2}-\frac{1}{4\pi\epsilon_{0}}\frac{e^{2}}{r}\right]\psi=E\,\psi
 \end{equation}</pre></div>
 <p>The boundary conditions are</p>
 <div class="math"><pre>\begin{align*}
@@ -577,7 +586,6 @@ new rich areas of physics such a molecular physics which is critical
 to the development of physical chemistry. Let us begin to dive into
 the how these orbitals play a role in composite systems such as molecules
 and their necessary rammifications.</p>
-</div>
 <div class="footnotes">
 <hr />
 <ol>
@@ -589,6 +597,11 @@ and their necessary rammifications.</p>
 </li>
 <li id="fn:3">
 <p>The amplitude can be a complex number, as opposed to real.<a href="#fnref:3" class="footnote-back-ref">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>What &#x27;solving&#x27; means to physics is that we have to give a (as complete
+as possible) description of the physical system in question, which
+is usually aided using mathematical equations.<a href="#fnref:4" class="footnote-back-ref">&#8617;</a></p>
 </li>
 </ol>
 </div>
