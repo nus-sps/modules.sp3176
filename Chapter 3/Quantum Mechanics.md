@@ -233,7 +233,7 @@ $$
 \left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V(x)\right)\,\psi(x)=E\psi(x)
 $$
 
-Inside the box $0<x<L$ where $V=0,$we have
+Inside the box $0<x<L$ where $V=0,$ we have
 <span id="inside_box"></span>
 $$
 \begin{equation}
@@ -342,8 +342,8 @@ $$
 $$
 is so called the reduced mass of the system. We will talk more about
 the reduced mass in the next chapter. Meanwhile, in here, since the
-mass of the proton $m_{p}$ is much larger than the mass of the electrom
-$m_{e,}$we have $\mu\approx m_{e}$. We can concise the notation
+mass of the proton $m_{p}$ is much larger than the mass of the electron
+$m_{e,}$ we have $\mu\approx m_{e}$. We can concise the notation
 and state that the SE of the hydrogen atom is 
 <span id="HatomSE"></span>
 $$
