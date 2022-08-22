@@ -252,6 +252,8 @@ box must be zero such that Schrodinger's equation still holds[^5]
 (because $0=0$). This also gives us the boundary conditions of the
 problem:
 [^5]: As physicists we sometimes just take infinity times zero to be zero.
+
+
 <span id="piabBC1"></span>
 <span id="piabBC2"></span>
 $$
