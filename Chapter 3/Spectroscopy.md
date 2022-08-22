@@ -89,7 +89,7 @@ useful in probing materials at very low quantities. Therefore, despite
 the puzzling nature of the discreteness of emissions from elements,
 they were very useful.
 
-**Go to [Activity 4](<In-Class Activities>).**
+**Go to [Activity 4](<In-Class Activities#activity-4>).**
 
 ### Blackbody radiation
 
@@ -118,7 +118,7 @@ of radiation emitted by hot objects is known as the Planck distribution.
 We will not dwell too long with blackbody radiation as we will save
 the more in-depth discussions on this topic in a later chapter. In
 the meantime, to get a better understanding of blackbody radiation,
-**Go to [Activity 5](<In-Class Activities>).**
+**Go to [Activity 5](<In-Class Activities#activity-5>).**
 
 Are there any light emission that is a combination of both blackbody
 and discrete transitions? Study the spectrum of a galaxy (SDSS object
@@ -182,4 +182,4 @@ emit very specific wavelengths of light. To understand how it does
 so, we must travel back in time once again to follow the models that
 tried to explain what the enigmatic atom is.
 
-**Go to [Activity 6](<In-Class Activities>).**
+**Go to [Activity 6](<In-Class Activities#activity-6>).**

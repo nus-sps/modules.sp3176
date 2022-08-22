@@ -255,7 +255,7 @@ multiples of $\pi$, then they destructively interfere with each other
 and results in a minimum. It is from the superposition principle that
 the Huygens-Fresnel principle explains and accounts for diffraction.
 
-**Go to [Activity 1](</Chapter 3/In Class Activities/#activity-1>).**
+**Go to [Activity 1](<In Class Activities/#activity-1>).**
 
 #### Diffraction Pattern
 
@@ -294,7 +294,7 @@ Diffraction gratings can arise from (regular) imperfections on a surface;
 a metal ruler or even your phone screen can serve as a diffraction
 grating.
 
-**Go to [Activity 2](</Chapter 3/In Class Activities/#activity-2>).**
+**Go to [Activity 2](<In Class Activities/#activity-2>).**
 
 ### 3.2.4 Wave-Particle duality of Light
 
@@ -337,4 +337,4 @@ This extended further meaning of a wave's properties into its particulate
 nature: the frequency of light not only denotes the rate at which
 it repeats, but also the energy it carries. 
 
-**Go to [Activity 3](</Chapter 3/In Class Activities/#activity-3>).**
+**Go to [Activity 3](<In Class Activities/#activity-3>).**
