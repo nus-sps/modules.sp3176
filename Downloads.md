@@ -15,7 +15,7 @@ The notes for The Universe are also available for download.
 |-----------|-------------------------------------------------------------------------------------------------------|
 | Chapter 1 | [Discovering the Universe](https://canvas.nus.edu.sg/files/33290/download?download_frd=1)             |
 | Chapter 2 | [Falling Apples and Orbiting Planets](https://canvas.nus.edu.sg/files/174994/download?download_frd=1) |
-| Chapter 3 | Atoms and Light                     |
+| Chapter 3 | [Atoms and Light](https://canvas.nus.edu.sg/files/194216/download?download_frd=1)                     |
 | Chapter 4 | Molecules                           |
 | Chapter 5 | Through the Looking Glass           |
 | Chapter 6 | Space and Time                      |
@@ -39,7 +39,7 @@ The notes for The Universe are also available for download.
 |---------------------|------------------------------------------------------------------------|
 | NexStar 6SE Manual  | [Link](https://canvas.nus.edu.sg/files/164434/download?download_frd=1) |
 | Dobsonian Manual    | [Link](https://canvas.nus.edu.sg/files/164435/download?download_frd=1) |
-| Astro Night         | Link |
+| Astro Night         | [Link](https://canvas.nus.edu.sg/files/198805/download?download_frd=1) |
 | Spectroscopy Manual | Link |
 | StarAnalyser Manual | [Link](https://canvas.nus.edu.sg/files/164436/download?download_frd=1) |
     
