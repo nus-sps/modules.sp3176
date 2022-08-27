@@ -82,7 +82,8 @@ that are not-so-abundant. A nicer representation of molecular spectrum
 is as follows:
 
 ![Radio images and spectra of B68 taken by the Institut de Radioastronomie
-Millimetrique (IRAM) 30 m telescope. Image credit: <a href="https://iopscience.iop.org/article/10.1086/367610/pdf">C. J. Lada, 2003, ApJ 568, 286</a>](</Resources/Chapter 4/b86b.png>)
+Millimetrique (IRAM) 30 m telescope. Image credit: <a href="https://iopscience.iop.org/article/10.1086/367610/pdf">C. J. Lada, 2003, ApJ 568, 286</a>](</Resources/Chapter 4/B68b.png>)
+
 
 To obtain the above results, in the authors' words
 
