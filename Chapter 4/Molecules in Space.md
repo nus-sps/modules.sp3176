@@ -43,13 +43,12 @@ B68 presents a pretty extreme case of it.
 What is interstellar reddening in general? When we learned about diffraction
 of light, we saw that red light diffracts less than green or blue
 light. Such wavelength dependence is generally exhibited when the
-size of the object in the path of the light is comparable to the wavelen
-gth of the light. When light **scatters** off small particles,
+size of the object in the path of the light is comparable to the wavelength of the light. When light **scatters** off small particles,
 red light is less affected and are able to transmit more easily through
 a region of gas than its shorter wavelength counterparts. This is
 the reason why the sun looks red when it is low on the horizon at
 dawn or dusk. Conversely, blue or shorter wavelength light scatters
-more and this is the reason why the sky the blue!
+more and this is the reason why the sky is blue!
 
 With the use of telescopes that see in infra-red light, we can peer
 *through* the dense cloud of B68. But what if we want to know
@@ -83,13 +82,13 @@ that are not-so-abundant. A nicer representation of molecular spectrum
 is as follows:
 
 ![Radio images and spectra of B68 taken by the Institut de Radioastronomie
-Millimetrique (IRAM) 30 m telescope. Image credit: <a href="https://iopscience.iop.org/article/10.1086/367610/pdf">C. J. Lada, 2003, ApJ 568, 286</a>](</Resources/Chapter 4/B86b.png>)
+Millimetrique (IRAM) 30 m telescope. Image credit: <a href="https://iopscience.iop.org/article/10.1086/367610/pdf">C. J. Lada, 2003, ApJ 568, 286</a>](</Resources/Chapter 4/b86b.png>)
 
 To obtain the above results, in the authors' words
 
 [^1]: <a href="https://iopscience.iop.org/article/10.1086/367610/pdf">C. J. Lada, 2003, ApJ 568, 286</a>
 
-:::quote
+||| Quote
 We used the 30 m IRAM millimeter-wave telescope located at Pico Valeta
 in Spain for the observations reported here. Observations were obtained
 during three periods: 2000 April and August and 2001 April. The dual
@@ -98,7 +97,7 @@ of C^18^O at 109.78218 GHz, the $1-0$ transition of N~2~H ^+^ at 93.173178 GHz, 
 GHz and C^34^S at 96.412982 GHz. Observations of the $J=1-0$
 transition of C^17^O and the $J=3-2$ transition of N~2~H ^+^
 were also obtained and reported elsewhere.
-:::
+|||
 
 Although not as widely probed, ro-vibrational spectrums are also taken
 and analysed by astro-chemists. Some examples are shown below.
@@ -112,4 +111,4 @@ from <a href="https://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?199
 
 ![Ro-vibrational peaks of Acetylene (C~2~H~2~) taken by <a href="https://www.sofia.usra.edu/sites/default/files/Instruments/EXES/Documents/EXESQG.pdf">EXES</a>
 onboard <a href="https://www.nasa.gov/mission_pages/SOFIA/overview/index.html">SOFIA</a>
-Spectra taken from N. Rangwala et al. 2018, ApJ}](<Resources/Chapter 4/C2H2rovibrational.png>)
+Spectra taken from N. Rangwala et al. 2018, ApJ](</Resources/Chapter 4/C2H2rovibrational.png>)
