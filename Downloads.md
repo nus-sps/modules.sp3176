@@ -16,7 +16,7 @@ The notes for The Universe are also available for download.
 | Chapter 1 | [Discovering the Universe](https://canvas.nus.edu.sg/files/33290/download?download_frd=1)             |
 | Chapter 2 | [Falling Apples and Orbiting Planets](https://canvas.nus.edu.sg/files/174994/download?download_frd=1) |
 | Chapter 3 | [Atoms and Light](https://canvas.nus.edu.sg/files/194216/download?download_frd=1)                     |
-| Chapter 4 | Molecules                           |
+| Chapter 4 | [Molecules](https://canvas.nus.edu.sg/files/241022/download?download_frd=1)                           |
 | Chapter 5 | Through the Looking Glass           |
 | Chapter 6 | Space and Time                      |
 | Chapter 7 | Expanding Universe                  |
