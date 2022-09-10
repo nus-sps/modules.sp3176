@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-root" content="/modules.sp3176">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.716142659901">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 2.4.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Astro-Spectroscopy</title>
+    <meta name="title" content="Astro-Spectroscopy">
+    <meta name="description" content="Through The Looking Glass" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://nus-sps.github.io/modules.sp3176/chapter-5/astro-spectroscopy/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nus-sps.github.io/modules.sp3176/chapter-5/astro-spectroscopy/">
+    <meta property="og:title" content="Astro-Spectroscopy">
+    <meta property="og:description" content="Through The Looking Glass">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nus-sps.github.io/modules.sp3176/chapter-5/astro-spectroscopy/">
+    <meta property="twitter:title" content="Astro-Spectroscopy">
+    <meta property="twitter:description" content="Through The Looking Glass">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("/modules.sp3176/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../resources/css/retype.css?v=2.4.0.716142659901" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.716142659901" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.716142659901" data-turbo-eval="false" defer></script>
+    <link href="../../resources/css/katex.css?v=2.4.0" rel="stylesheet" />
+    <script id="katex-js" type="text/javascript" src="../../resources/js/katex.js?v=2.4.0" defer></script>
+
+    <!DOCTYPE html>
+    <style>
+    	.quote {
+    /*		text-align : left;
+    		color: #000000;
+    		font-family: "Luminari, fantasy";
+    		padding-top: 20px;
+            margin-bottom: 20px;
+            background-color: #404040;
+            border: 1px solid #1956AF;*/
+            font-family: Luminari, fantasy;
+    		background: #f9f9f9;
+     		border-left: 10px solid #ccc;
+      		margin: 1.5em 10px;
+      		padding: 0.5em 10px;
+      		quotes: "\201C""\201D""\2018""\2019";
+      		border-top-left-radius: 10px;
+      		border-top-right-radius: 10px;
+      		border-bottom-right-radius: 10px;
+      		border-bottom-left-radius: 10px;
+      		font-size: 1.1em;
+    	}
+    	.quote:before {
+      		color: #ccc;
+      		content: open-quote;
+      		font-size: 4em;
+      		line-height: 0.1em;
+      		margin-right: 0.25em;
+      		vertical-align: -0.4em;	
+    	}
+    </style>
+    <!-- 
+    #border: 0.2px solid rgb(224, 224, 224); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding: 10px; background-color: rgb(255, 232, 232);
+
+    blockquote {
+      background: #f9f9f9;
+      border-left: 10px solid #ccc;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+    blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+    blockquote p {
+      display: inline;
+    } -->
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">The Universe</span>
+                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">v1.6.1</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://sps.nus.edu.sg/">
+                                    <span class="docs-emoji mr-1">🌐</span>
+                                    <span>SPS Website</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://canvas.nus.edu.sg/courses/25480">
+                                    <span class="docs-emoji mr-1">📒</span>
+                                    <span>Canvas</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://forms.gle/94mhSjf6xP9nPZ5y5">
+                                    <span class="docs-emoji mr-1">🌌</span>
+                                    <span>Photo Submissions</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://sps.nus.edu.sg/">
+                                            <span class="docs-emoji mr-1">🌐</span>
+                                            <span>SPS Website</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://canvas.nus.edu.sg/courses/25480">
+                                            <span class="docs-emoji mr-1">📒</span>
+                                            <span>Canvas</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://forms.gle/94mhSjf6xP9nPZ5y5">
+                                            <span class="docs-emoji mr-1">🌌</span>
+                                            <span>Photo Submissions</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="grow min-w-0 px-6 md:px-16">
+                        <main class="relative pt-6 pb-16">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="astro-spectroscopy" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#astro-spectroscopy">#</doc-anchor-trigger>
+        <span>Astro-Spectroscopy</span>
+    </h1>
+</doc-anchor-target>
+<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center">
+    <div class="flex items-center">
+        <div>By</div>
+        <div class="ml-2 flex items-center">
+          <div class="shrink-0 w-8 h-8 overflow-hidden rounded-full">
+            <a href="https://sps.nus.edu.sg/user/lim.zhihan/"><img class="object-cover" src="https://sps.nus.edu.sg/wp-content/uploads/2019/06/logo_sps20.png"/></a>
+          </div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350"><a href="https://sps.nus.edu.sg/user/lim.zhihan/">Dr Lim Zhi Han</a></div>
+        </div>
+        <div>,</div>
+        <div class="ml-2 flex items-center">
+          <div class="shrink-0 w-8 h-8 overflow-hidden rounded-full">
+            <a href="https://sps.nus.edu.sg/user/zhiyong.koh17/"><img class="object-cover" src="https://sps.nus.edu.sg/wp-content/uploads/ultimatemember/25/profile_photo-190x190.jpg?1662811284"/></a>
+          </div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350"><a href="https://sps.nus.edu.sg/user/zhiyong.koh17/">Koh Zhi Yong</a></div>
+        </div>
+        <div>,</div>
+        <div class="ml-2 flex items-center">
+          <div class="shrink-0 w-8 h-8 overflow-hidden rounded-full">
+            <a href="https://sps.nus.edu.sg/user/joonkiat.kang17/"><img class="object-cover" src="https://sps.nus.edu.sg/wp-content/uploads/ultimatemember/21/profile_photo-190x190.jpg?1662826964"/></a>
+          </div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350"><a href="https://sps.nus.edu.sg/user/joonkiat.kang17/">Gerald Kang Joon Kiat</a></div>
+        </div>
+    </div>
+    <div class="mx-2">&#9679;</div>
+    <div class="flex items-center shrink-0">Published&nbsp;<span>2022-09-10</span></div>
+</div>
+
+<doc-anchor-target id="54-astro-spectroscopy">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#54-astro-spectroscopy">#</doc-anchor-trigger>
+        <span>5.4 Astro-Spectroscopy</span>
+    </h2>
+</doc-anchor-target>
+<p>Let us now discuss one of the most valuable tools in Science applied
+to the study of the Universe. This section introduces how astronomers
+determine the chemical compositions and physical properties of celestial
+objects. We will also look at how velocities of stars and galaxies
+in the radial direction are deduced by examining their spectra.</p>
+<doc-anchor-target id="541-the-blackbody-spectrum">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#541-the-blackbody-spectrum">#</doc-anchor-trigger>
+        <span>5.4.1 The Blackbody Spectrum</span>
+    </h3>
+</doc-anchor-target>
+<p>Have you seen a piece of material start to glow as it is heated to
+higher temperatures? Consider an iron rod being heated up. At first
+you will feel the heat radiating out of the iron. We are feeling the
+infra-red light that the iron emits. The iron will begin to glow in
+dull red at temperatures above <span class="math">500^{\circ}\text{C}</span>. At even higher
+temperature, it changes to bright red to orange, then yellow and progressively
+white above <span class="math">1300^{\circ}\text{C}</span>. From such observations, it seems
+that light is somewhat associated with temperatures. Indeed it does!
+In fact, light that are emitted from the iron are not limited to just
+visible or infrared but covers the entire electromagnetic spectrum.</p>
+<p>Consider a hypothetical body that absorbs all incident electromagnetic
+radiation and reflects none. We termed this perfect absorber as a
+blackbody, since it will appear black when it does not reflect visible
+light. While such a body do not reflect light, it is capable of emitting
+(blackbody) radiation in all directions. The body emits electromagnetic
+energy as a result of the thermal agitation of electrons in its surface.
+When the body is in thermal equilibrium, it emits as much energy as
+it absorbs, thus making a blackbody both a perfect absorber and emitter.</p>
+<p>The intensity of the electromagnetic energy emitted by a black body
+depends on the wavelengths (frequencies) and the body&#x27;s
+thermal equilibrium temperature; the radiation it emits covers the
+entire range of the electromagnetic spectrum. The electromagnetic
+energy per unit volume per unit wavelength emitted by a black body
+at thermal equilibrium temperature <span class="math">T</span> is given by</p>
+<div class="math"><pre>u(\lambda,T)=\frac{8\pi hc}{\lambda^{5}}\frac{1}{\exp\left(\frac{hc}{k_{B}T}\right)-1}</pre></div>
+<p>where <span class="math">h</span> is the Planck&#x27;s constant, <span class="math">k_{B}</span> is the Boltzmann&#x27;s constant
+and <span class="math">c</span> is the speed of light in vacuum.</p>
+<p><figure class="content-center">
+    <img src="../../resources/chapter-5/bbr.png" alt="Blackbody spectra at various temperatures. Image credit: Darth Kule" />
+    <figcaption class="caption">Blackbody spectra at various temperatures. Image credit: <a href="https://commons.wikimedia.org/wiki/File:Black_body.svg">Darth Kule</a></figcaption>
+</figure>
+</p>
+<p>The figure above shows the radiation emitted at thermal equilibrium
+by a blackbody at various temperatures. It has a well-defined continuous
+energy distribution over the entire range of wavelengths of the electromagnetic
+spectrum. For any specific wavelength, there is a corresponding energy
+density that depends neither on the chemical composition of the body
+nor its shape, but only on its surface temperature.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Try it Yourself!</h5>
+<p>Take a spin on the <a href="https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum_en.html" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span><img class="mb-px inline-flex mr-2" width="18" src="../../resources/common/phet-icon.png" /></span>
+    <span>PhET</span>
+</a> Blackbody spectrum simulation. You might have seen this in Chapter 3!</p>
+        </div>
+    </div>
+</div>
+<p>At a certain temperature <span class="math">T</span>, the energy distribution peaks at a
+particular wavelength, which can be approximated from the Wien&#x27;s
+Displacement Law</p>
+<div class="math"><pre>\lambda_{\text{peak}}=\frac{2.898\times10^{-3}\text{mK}}{T}.</pre></div>
+<p>Real materials emit electromagnetic energy at only a fraction of a
+blackbody. Like any materials, gases when heated and reached thermal
+equilibrium also emits electromagnetic radiation. Stars, which are
+huge dense masses of gases at their core, are therefore no exception.
+In fact, the interior of stars are good approximations of blackbodies
+because their hot gases are very opaque, that is, stellar material
+is nearly a perfect absorber of radiation. At thermal equilibrium,
+the interior of a star emits electromagnetic energy that has a continuous
+spectral energy density nearly similar to that of a black body. However,
+when the emitted radiation of a star&#x27;s interior passes
+through the star&#x27;s atmosphere, the relatively cooler
+less dense gases absorb parts of the wavelengths that are emitted.
+By studying these wavelengths, we can determine the chemical composition
+of the stellar atmosphere. Let us take a look at our closest example:
+The Sun.</p>
+<doc-anchor-target id="542-stellar-classification">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#542-stellar-classification">#</doc-anchor-trigger>
+        <span>5.4.2 Stellar Classification</span>
+    </h3>
+</doc-anchor-target>
+<p>The first astro-spectroscopy was carried out more than two hundred
+years ago by William Hyde Wollaston (1766 - 1828), who noted dark
+lines in the spectrum of sunlight after passing through a prism. About
+a decade later, Joseph von Fraunhofer (1787 - 1826) repeated the
+experiment using a diffraction grating, and recorded about 600 discrete
+dark lines. Atomic physics at that time was not yet developed, so
+the nature of the lines remained a mystery.</p>
+<p>Modern technologies have allowed us to collect the solar spectrum
+above Earth&#x27;s atmosphere (which also causes absorption
+of wavelengths). Even so, some of the notable discrete dark lines
+still persist in the solar spectrum. This indicates that these lines
+are caused by the Sun&#x27;s atmosphere. The Sun&#x27;s
+interior emits a continuous blackbody spectrum of radiation. As the
+light passes through its cooler outer atmosphere, the atoms and molecules
+absorb photons at specific wavelengths to undergo electronic transitions.
+The absorbed wavelengths coincide with the emission spectrum of some
+heated elements, providing strong evidence that these elements are
+present in the solar atmosphere of our Sun.</p>
+<p><figure class="content-center">
+    <img src="../../resources/chapter-5/fraunhofer_lines.png" alt="Notable Fraunhofer absorption lines in the solar spectrum. Image credit: Wikimedia Commons" />
+    <figcaption class="caption">Notable Fraunhofer absorption lines in the solar spectrum. Image credit: <a href="https://en.wikipedia.org/wiki/Fraunhofer_lines">Wikimedia Commons</a></figcaption>
+</figure>
+</p>
+<p>The Fraunhofer absorption lines provide an insight into the chemical
+composition of our Sun&#x27;s atmosphere. Extending to other
+stars, the absorption lines in a stellar spectrum serves as a fingerprint
+identification of elements present in the stellar atmosphere.</p>
+<p>It was found that all stars have roughly the same chemical composition
+(therefore similar discrete dark lines in their stellar spectrum).
+However, the relative strength of the absorption lines varies between
+stars. Stars are therefore classified based on the relative strength
+of their absorption lines and the line strength mostly traces out
+the surface temperature of the star.</p>
+<p>To see why, consider two extreme cases where the surface temperature
+of a star is too low or too high. A star with a low surface temperature
+will have few electrons in the <span class="math">n=2</span> energy level. As a result the
+cool star will exhibit weak Balmer lines. On the other hand, a very
+hot star will mean that many atoms are fully ionised. With few bound-state
+electrons available, the absorption lines will be weak too. In the
+intermediary of the two extreme cases, the intensity of the spectral
+lines is determined by the ratio of the population of electrons in
+each state.</p>
+<p>Therefore, by carefully analysing the intensity of the absorption
+lines in a stellar spectra, one can in principle determine the surface
+temperature of the star or at least narrow down its temperature range.
+The surface temperature of stars are commonly compared against other
+stellar properties, such as luminosity.</p>
+<p>Most stars are generally classified under the Morgan Keenan (MK) system
+using the letters O, B, A, F, G, K, and M, with O type being the hottest
+to M type being the coolest. Each spectral type is also further subdivided
+using a numeric digit with 0 being the hottest and 9 being the coolest.</p>
+<p><span id="spectral-class"></span></p>
+<p>Table 5.2: Spectral classification of stars.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Spectral Type</th>
+<th>Characteristics</th>
+<th>Temperature</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M</td>
+<td>These red stars are cool enough for simple molecules form. Spectrum involves lines from CN (cyanogen), TiO (titanium oxide), ZrO (zirconium oxide) and some neutral metals.</td>
+<td>&lt;3500 K</td>
+</tr>
+<tr>
+<td>K</td>
+<td>Spectral lines show mainly that of neutral and ionised metals.</td>
+<td>3500 – 5000 K</td>
+</tr>
+<tr>
+<td>G</td>
+<td>Strong lines from ionized metals such as Ca2+. Hydrogen lines are also present. This is the spectral type of our Sun!</td>
+<td>5000 – 6000 K</td>
+</tr>
+<tr>
+<td>F</td>
+<td>More hydrogen lines than G.</td>
+<td>6000 – 7500 K</td>
+</tr>
+<tr>
+<td>A</td>
+<td>White-blue in colour. Strongest hydrogen lines.</td>
+<td>7500 – 10 000 K</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Weak hydrogen lines, helium lines appear.</td>
+<td>10 000 – 30 000 K</td>
+</tr>
+<tr>
+<td>O</td>
+<td>Blue stars. No hydrogen lines, mainly He2+lines.</td>
+<td>30 000 – 60 000 K</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><figure class="content-center">
+    <img src="../../resources/chapter-5/stellarspectraclassification.jpg" alt="Stellar spectra of various spectral type stars. Image credit: KPNO 0.9-m Telescope, AURA, NOAO, NSF" />
+    <figcaption class="caption">Stellar spectra of various spectral type stars. Image credit: <a href="https://apod.nasa.gov/apod/ap010530.html">KPNO 0.9-m Telescope, AURA, NOAO, NSF</a></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="543-doppler-effect">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#543-doppler-effect">#</doc-anchor-trigger>
+        <span>5.4.3 Doppler effect</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Go to <a href="../in-class-activities/#Activity-2">Activity 2</a>: Doppler Rocket</strong></p>
+<p>The Doppler effect is commonly associated with astro-spectroscopy.
+Let&#x27;s start off the discussion with an interesting
+phenomenon you have probably encountered. The pitch of an ambulance
+siren increases as it moves towards us while it decreases as it moves
+away from us. Such a phenomenon was first described by Christian Doppler
+and was eventually termed as the Doppler effect. When a source of
+sound and a listener is in relative motion relative to each other,
+the frequency of the sound heard is not the same as the source frequency.</p>
+<p>To see why, let&#x27;s first consider an observer and a
+source of sound. The source emits a sound wave with frequency, <span class="math">f</span>
+,and wavelength <span class="math">\lambda=c/f</span>, where <span class="math">c</span> is the speed of sound in
+air. To make things easier to visualise, consider the observer&#x27;s
+motion in the horizontal direction.</p>
+<p><figure class="content-center">
+    <img src="../../resources/chapter-5/dopplersound.png" alt="Left: An observer and a stationary source of sound. The wavefronts
+reaches the observer at intervals of 1/f=\lambda/c. Right: The
+source moves towards the source. The wavefronts reaches the obsever
+at highere frequencies, and thus shorter wavelengths." />
+    <figcaption class="caption">Left: An observer and a stationary source of sound. The wavefronts
+reaches the observer at intervals of <span class="math">1/f=\lambda/c</span>. Right: The
+source moves towards the source. The wavefronts reaches the obsever
+at highere frequencies, and thus shorter wavelengths.</figcaption>
+</figure>
+</p>
+<p>Now suppose the source moves, say at a constant velocity of <span class="math">v_{s}</span>
+towards the observer. The frequency and wavelength of the sound wave
+as perceived by the observer is now different. In one period <span class="math">T=1/f</span>,
+the source moves by a distance of <span class="math">v_{s}T=v_{s}/f</span>. The wavefronts
+towards to observer are compressed by this amount. The observer thus
+perceives a shorter wavelength, and experiences a higher frequency
+of recieving the wavefronts. Let <span class="math">\lambda'</span> and <span class="math">f'</span> be the wavelength
+and frequency measured by the observer. It is conventional in astronomy
+to take velocities as &quot;recession velocities&quot;. This means sources
+that move away from us take on positive velocities. Here since the
+source moves towards us, <span class="math">v_{s}&lt;0</span>. Hence the compressed wavelength
+is
+<span id="DopplerSHiftWavelenth"></span></p>
+<div class="math"><pre>\begin{align}
+\lambda' &amp; =\lambda+\frac{v_{s}}{f}\nonumber \\
+ &amp; =\lambda+v_{s}\frac{\lambda}{c}\nonumber \\
+\lambda'-\lambda &amp; =\frac{v_{s}}{c}\lambda\nonumber \\
+\frac{\Delta\lambda}{\lambda} &amp; =\frac{v_{s}}{c}
+\end{align}</pre></div>
+<p>where <span class="math">\Delta\lambda</span> is the shift in wavelength. Here the source
+is approaching the observer, <span class="math">v_{s}&lt;0,</span> <span class="math">\Delta\lambda</span> is negative,
+meaning that the wavelengths received are shorter than the originally
+emitted. If the source is receeding away the observer, <span class="math">v_{s}&gt;0,\Delta\lambda&gt;0,</span>
+the wavelengths received will be longer. The frequency will shift
+in a similar way:
+<span id="DopplerSHiftFreq"></span></p>
+<div class="math"><pre>\begin{equation}
+\frac{\Delta f}{f}=-\frac{v_{s}}{c}
+\end{equation}</pre></div>
+<p>The shifts in wavelengths and frequencies are called the Doppler shifts.</p>
+<p>The Doppler effect of sound waves require the speed of sound wave
+(<span class="math">c</span>), velocities of the source with respect to the observer (<span class="math">v_{s}</span>)
+to be measured with respect to whatever medium they are travelling
+within. Electromagnetic waves, such as light, require no medium to
+propagate. Nonetheless, there is still a Doppler relation for electromagnetic
+waves (e.g. light) just by having knowledge of the relative velocity
+between the observer and the source. Here, we quote the result and
+shall not derive the relation:</p>
+<div class="math"><pre>f'=\sqrt{\frac{c-v_{s}}{c+v_{s}}}f</pre></div>
+<p>where <span class="math">c</span> here is the speed of light. In the low (source) velocity
+limit where <span class="math">v_{s}\ll c</span>, the above equation reduces to Eq.(<doc-anchor-trigger to="#DopplerSHiftFreq">3</doc-anchor-trigger>).
+In practical astronomy, this is almost always the case and hence the
+simpler formulae Eqs.(<doc-anchor-trigger to="#DopplerSHiftWavelenth">2</doc-anchor-trigger>) and (<doc-anchor-trigger to="#DopplerSHiftFreq">3</doc-anchor-trigger>)
+are usually used.</p>
+<p>Generally all celestial objects are in relative motion with us, hence
+<strong>all astronomical spectral lines are Doppler shifted</strong>.</p>
+<p>Astronomers define the redshift of a spectral line by
+<span id="redshiftFormula"></span></p>
+<div class="math"><pre>\begin{equation}
+z=\frac{\Delta\lambda}{\lambda}
+\end{equation}</pre></div>
+<p>This term gives a intuitive picture of shifted spectral lines shfted
+towards higher wavelengths due to recession velocities. Together with
+Eq.(<doc-anchor-trigger to="#DopplerSHiftWavelenth">1</doc-anchor-trigger>) we see that the higher the (recession)
+velocity, the greater the redshift.</p>
+<doc-anchor-target id="544-binary-stars-and-exoplanets">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#544-binary-stars-and-exoplanets">#</doc-anchor-trigger>
+        <span>5.4.4 Binary stars and Exoplanets</span>
+    </h3>
+</doc-anchor-target>
+<p>The use of astro-spectroscopy has led to many interesting astronomical
+discoveries. Here, we briefly discuss how spectroscopy is used to
+detect binary stars and exoplanets.</p>
+<p>A binary star system is a system of two stars that are gravitationally
+bound and orbit around each other about a common center of mass. While
+some binary star systems are resolvable by using a telescope, more
+often than not either the resolving power of the telescope presents
+itself as a limiting factor or the relative brightness between the
+stars is too large, resulting in a situation where the glare from
+the brighter star makes it difficult to observe the fainter star.
+In such situations, astro-spectroscopy is a useful tool in helping
+to detect binary star systems through the analysis of the Doppler
+effect on their stellar spectra.</p>
+<p>The absorption lines in the stellar
+spectra of each star are first blueshifted and then redshifted, as
+each star moves towards us and then away from us about their common
+center of mass, with the period of their common orbit. In some spectroscopic
+binaries, the spectral lines of both stars are visible and lines alternate
+between single and double. In other systems, only the spectrum of
+one star is observed and the lines periodically blueshift and redshift.
+By carefully analysing the Doppler shift of the spectral lines, it
+is possible to determine the radial velocity of the system and even
+the shape of the binary orbit.</p>
+<p><figure class="content-center">
+    <img src="../../resources/chapter-5/radialvelocity.gif" alt="Absorption lines getting doppler shifted. In this visual, the yellow star emits light, with absorption lines marked in dotted lines. As the large planet orbits around it, the star wobbles forward and backward. When a star is receeding from us, its wavelength increases, making it redder. Similarly, when the star moves towards us, its wavelength increases, making it bluer. The absorption lines of the star as it is moving is presented as filled lines. Image Credit: Alysa Obertas" />
+    <figcaption class="caption">Absorption lines getting doppler shifted. In this visual, the yellow star emits light, with absorption lines marked in dotted lines. As the large planet orbits around it, the star wobbles forward and backward. When a star is receeding from us, its wavelength increases, making it redder. Similarly, when the star moves towards us, its wavelength increases, making it bluer. The absorption lines of the star as it is moving is presented as filled lines. Image Credit: <a href="http://www.astro.utoronto.ca/~obertas/">Alysa Obertas</a></figcaption>
+</figure>
+</p>
+<p>Astro-spectroscopy also offers a useful indirect method of detecting
+exoplanets. If the exoplanet is gravitationally bound to a host star,
+both of them will orbit about a common center of mass. Again, we search
+for the Doppler shift (periodic blueshift and redshift) in the stellar
+spectrum of the host star as the star moves towards and away from
+us. However, compared to binary star systems, the spectral shift brought
+about by an exoplanet can be much less prominent and harder to detect
+if the planet is much smaller in size and orbits far from its host
+star, causing the radial velocity of the star-exoplanet system to
+be relatively much smaller compared to a binary star system. Therefore,
+this method is best used for detecting massive exoplanets orbiting
+close to their host stars, since this will allow for a much larger
+radial velocity of the system and thus a more observable Doppler shift
+in the spectral lines of the stellar spectra.</p>
+<p>The discovery of the
+first exoplanet was made in 1995 by Swiss astronomers Michael Mayor
+and Didier Queloz using astro-spectroscopy, who were both subsequently
+awarded the 2019 Nobel Prize in Physics. Since then, there have been
+a few different methods aside from spectroscopy used in detecting
+exoplanets and the number of verified exoplanets has surpassed 5000.</p>
+<doc-anchor-target id="545-redshift-of-galaxies">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#545-redshift-of-galaxies">#</doc-anchor-trigger>
+        <span>5.4.5 Redshift of Galaxies</span>
+    </h3>
+</doc-anchor-target>
+<p>In 1912, Vesto Slipher examined the spectrum of our neighbour galaxy,
+Andromeda and reported a shift of the spectral lines. He argued that
+this (blue)shift of Andromeda&#x27;s spectrum is most likely due to Andromeda
+moving towards us with a radial velocity of 300 <span class="math">\text{km/s}</span>. He
+went on to analyse 15 other galaxies and found that some are approaching
+us and receding from us. Edwin Hubble and Milton Humason extended
+Slipher&#x27;s work in the 1920-30s and found that most galaxies are moving
+aways from us. In addition to finding the redshifts and radial velocities,
+they used Cepheids in the galaxies they examine to determine the distance
+of these galaxies.</p>
+<p><figure class="content-center">
+    <img src="../../resources/chapter-5/humason_redshift_spec.png" alt="Photographs of some galaxies and their spectra captured by Milton
+Humason using the 100 inch Mount Wilson Telescope. As shown the fainter
+the galaxy (thus further), the more red-shifted its spectrum is." />
+    <figcaption class="caption">Photographs of some galaxies and their spectra captured by Milton
+Humason using the 100 inch Mount Wilson Telescope. As shown the fainter
+the galaxy (thus further), the more red-shifted its spectrum is.</figcaption>
+</figure>
+</p>
+<p>In 1929, Hubble published a result that changed the view of the Universe.
+He found that with the exception of a few nearby galaxies whose spectra
+are blueshifted and thus movng towards us, all other galaxies have
+redshifted spectra and move away from us. Even more surprisingly,
+<strong>the further away the galaxy, the faster the receeding velocity.</strong>
+The proportional relationship between distance and recession velocity
+of a galaxy, now known as the Hubble&#x27;s law</p>
+<p><span id="Hubble-law"></span></p>
+<div class="math"><pre>\begin{equation}
+v=H_{0}d
+\end{equation}</pre></div>
+<p>What kind of force is pulling the Universe apart? Gravity is an attractive
+force, it will not do this. Electric forces cannot be at play as that
+will require the galaxies to be highly charged. Nuclear forces do
+not work in long range. What could be the cause of this phenomenon?</p>
+<p>Even now we do not truly know the &quot;cause&quot; of the phenomenon. The
+best &quot;explanation&quot; is to <em>assume that the Universe is expanding</em>,
+and model the expansion based on our existing theories. What is the
+meaning of an expanding Universe? We will dig into the this in the
+second half of the course.</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../chapter-5/cosmic-distance-ladder/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Cosmic Distance Ladder</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../chapter-5/in-class-activities/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">In-​Class Activities</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2022. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "Astro-Spectroscopy", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: true }</script>
+</body>
+</html>
