@@ -21,10 +21,10 @@ description: "Schedule AY22/23"
 |       3 | Ch. 3 Atoms and Light                     | Ch. 2 Falling Apples and Orbiting Planets             |
 |       4 | Ch. 3 Atoms and Light                     | Ch. 3 Atoms and Light                                 |
 |       5 | Ch. 4 Molecules                           | Ch. 3 Atoms and Light                                 |
-|       6 | Ch. 5 Through the looking glass           | Ch. 4 Molecules                                       |
+|       6 | Ch. 5 Through the Looking Glass           | Ch. 4 Molecules                                       |
 |  Recess |                                           |                                                       |
-|       7 | Ch. 5 Through the looking glass           | Ch. 5 Observational Astronomy                         |
-|       8 | Ch. 6 Space and Time                      | Ch. 5 Observational Astronomy                         |
+|       7 | Ch. 5 Through the Looking Glass           | Ch. 5 Through the Looking Glass                       |
+|       8 | Ch. 6 Space and Time                      | Ch. 5 Through the Looking Glass                       |
 |       9 | Ch. 7 Expanding Universe                  | Ch. 6 Space and Time                                  |
 |      10 | Ch. 7 Expanding Universe                  | Ch. 7 Expanding Universe                              |
 |      11 | Ch. 8 Big bang theory                     | No tutorial                                           |
