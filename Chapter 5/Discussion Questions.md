@@ -30,15 +30,13 @@ the Astronomical Unit?
 
 2. Read about Mira "the wonderful" star in the following articles
 
-[!badge text="Article 1"](https://astrobob.areavoices.com/2019/10/08/meet-mira-a-wonderful-and-astonishing-star/)
-
-[!badge text="Article 2"](https://www.skyandtelescope.com/astronomy-news/miras-marvelous-tail/)
+[!badge text="Article 1"](https://astrobob.areavoices.com/2019/10/08/meet-mira-a-wonderful-and-astonishing-star/)  [!badge text="Article 2"](https://www.skyandtelescope.com/astronomy-news/miras-marvelous-tail/)
 
 and answer the following questions. 
 
 (a) Assuming that Mira is 100 parsecs away from us, calculate the
-absolute magnitude of Mira when it is at it\textquoteright s brightest
-and dimmest. In terms of luminousity, how much brighter or dimmer
+absolute magnitude of Mira when it is at its brightest
+and dimmest. In terms of luminosity, how much brighter or dimmer
 is Mira as compared to the Sun? 
 
 
@@ -55,10 +53,11 @@ corresponding to the most prominent peak emitted from the quasar?
 (Obtain information on the redshift from Table 1 in the paper.)
 
 [^1]: S. Kaspi et al., Astrophys. J. 533, 631 (2000)
+
 ---
 
 4. Given the redshift of a particular quasar to be $z=2.504$, what
-is the observed wavelength of the Hydrogen Ly$\alpha$ line?
+is the observed wavelength of the Hydrogen Ly $\alpha$ line?
 
 ---
 
@@ -69,21 +68,23 @@ at a time. Radio astronomers thus need to know exactly what they want
 to look for. This can be done by looking up the rest frame frequencies
 of their objects of interest. An example is as follows: 
 
-![Spectra of HeH$^{+}$ $J=1\rightarrow0$ and CO $J=11\rightarrow10$
+![Spectra of $\text{HeH}^+$ $J=1\rightarrow0$ and CO $J=11\rightarrow10$
 rotational energy levels transitions in NGC 7027.](</Resources/Chapter 5/HeHNGC7027.PNG>)
 
 Note that the horizontal axis is given in terms of velocity. This
-velocity is the velocity of the source and thus if related to Doppler
+velocity is the velocity of the source and this is related to Doppler
 redshifts.
 
 (a) Using velocity as the horizontal axis may seem to be a strange
 choice. Can you think of a reason why this is useful in context of
 collecting a spectrum of a nebula (cloud of gas in between stars)?
-Clue: this paper is on the "Astrophysical detection of the funny
-molecule HeH$^{+}$". So why is the CO spectrum doing there?
 
-(b) Given that the spectral resolution of the HeH$^{+}$ spectrum
-is 3.6 km s$^{-1}$. Find the spectral resolution in terms of MHz.
+Clue: this paper is on the "Astrophysical detection of the funny
+molecule $\text{HeH}^+$". So why is the CO spectrum doing there?
+
+(b) Given that the spectral resolution of the $\text{HeH}^+$ spectrum
+is 3.6 km $\text{s}^{-1}$. Find the spectral resolution in terms of MHz.
+
 Clue: Use the formulae related to Doppler redshift. 
 
 ---
@@ -96,4 +97,4 @@ from the velocities and distance of several spiral galaxies. Perform
 a statistical analysis to determine the goodness-of-fit of his relation
 on his data (given below). 
 
-![](</Resources/Chapter 5/Hubble_data.png)
+![](</Resources/Chapter 5/Hubble_data.png>)

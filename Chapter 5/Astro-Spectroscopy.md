@@ -49,11 +49,11 @@ energy as a result of the thermal agitation of electrons in its surface.
 When the body is in thermal equilibrium, it emits as much energy as
 it absorbs, thus making a blackbody both a perfect absorber and emitter. 
 
-The intensity of the electromagnetic energy emitted by a black body
+The intensity of the electromagnetic energy emitted by a blackbody
 depends on the wavelengths (frequencies) and the body's
 thermal equilibrium temperature; the radiation it emits covers the
 entire range of the electromagnetic spectrum. The electromagnetic
-energy per unit volume per unit wavelength emitted by a black body
+energy per unit volume per unit wavelength emitted by a blackbody
 at thermal equilibrium temperature $T$ is given by
 $$
 u(\lambda,T)=\frac{8\pi hc}{\lambda^{5}}\frac{1}{\exp\left(\frac{hc}{k_{B}T}\right)-1}
@@ -82,14 +82,14 @@ $$
 $$
 
 Real materials emit electromagnetic energy at only a fraction of a
-blackbody. Like any materials, gases when heated and reached thermal
-equilibrium also emits electromagnetic radiation. Stars, which are
+blackbody. Like any material, gases when heated and at thermal
+equilibrium also emit electromagnetic radiation. Stars, which are
 huge dense masses of gases at their core, are therefore no exception.
 In fact, the interior of stars are good approximations of blackbodies
 because their hot gases are very opaque, that is, stellar material
 is nearly a perfect absorber of radiation. At thermal equilibrium,
 the interior of a star emits electromagnetic energy that has a continuous
-spectral energy density nearly similar to that of a black body. However,
+spectral energy density nearly similar to that of a blackbody. However,
 when the emitted radiation of a star's interior passes
 through the star's atmosphere, the relatively cooler
 less dense gases absorb parts of the wavelengths that are emitted.
@@ -161,7 +161,7 @@ Table 5.2: Spectral classification of stars.
 
 | Spectral Type | Characteristics                                                                                                                                                             | Temperature       |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| M             | These red stars are cool enough for simple molecules form. Spectrum involves lines from CN (cyanogen), TiO (titanium oxide), ZrO (zirconium oxide) and some neutral metals. | <3500 K           |
+| M             | These red stars are cool enough for simple molecules to form. Spectrum involves lines from CN (cyanogen), TiO (titanium oxide), ZrO (zirconium oxide) and some neutral metals. | <3500 K           |
 | K             | Spectral lines show mainly that of neutral and ionised metals.                                                                                                              | 3500 – 5000 K     |
 | G             | Strong lines from ionized metals such as Ca2+. Hydrogen lines are also present. This is the spectral type of our Sun!                                                       | 5000 – 6000 K     |
 | F             | More hydrogen lines than G.                                                                                                                                                 | 6000 – 7500 K     |

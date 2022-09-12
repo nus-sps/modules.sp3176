@@ -64,7 +64,7 @@ telescope at the NUS multi-purpose field.](</Resources/Chapter 5/TransitOfVenus.
 The figure above shows the schematic of the transit of Venus as observed
 from two different locations on Earth. Details of how the astronomical
 unit is derived from trasit-of-Venus observations can be found in
-the Appendix.
+the [Appendix](<Appendix>).
 
 ### 5.3.2 Stellar Parallax
 

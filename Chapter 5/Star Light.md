@@ -46,7 +46,7 @@ A similar phenomenon is at play when we observe stars in the night
 sky. Stars are basically spherical light sources far away from us
 that emit light isotropically. 
 
-Go to [Activity 1.](<Activities/#Power of the Sun>)
+Go to [Activity 1.](<In-Class Activities/#activity-1>)
 
 #### Luminosity and Flux
 
@@ -86,7 +86,7 @@ of star 1 and star 2 respectively. Note that by this definition, a
 brighter star will have a lower apparent magnitude, and that it is
 possible to have a negative magnitude. Also note that this definition
 merely establishes a way to compare relative brightness, but a zero
-point is not explicitly set by this equation.By convention, a star
+point is not explicitly set by this equation. By convention, a star
 called Vega is taken as the zero point of the apparent magnitude scale.
 From there, the absolute magnitude of Vega is calculated (0.57) which
 indirectly defines the zero point of the absolute magnitude scale. 

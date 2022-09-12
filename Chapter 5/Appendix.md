@@ -66,7 +66,7 @@ $$
 
 with $k$ the proportionality constant. We note that the angle subtended
 by the chord A'B' is slightly smaller
-than that subtended by the chord AB, by say 2$\delta$. We can write
+than that subtended by the chord AB, by say 2 $\delta$. We can write
 the transit time as measured by observer P'.
 
 $$
