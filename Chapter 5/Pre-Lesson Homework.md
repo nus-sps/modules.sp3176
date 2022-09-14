@@ -22,7 +22,7 @@ description: "Through The Looking Glass"
 
 ## 5.1 Pre-Lecture Homework
 
-1. Visit NASA's Astronomy Picture of the Day. Look
+1. Visit [!badge icon="/resources/common/NASA-icon.png" text="NASA's Astronomy Picture of the Day"](https://apod.nasa.gov/apod/astropix.html). Look
 at 10 random pages. Select one that you really like. Why do you like
 the selected picture?
 
