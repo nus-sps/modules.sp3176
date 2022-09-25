@@ -30,7 +30,7 @@ the Astronomical Unit?
 
 2. Read about Mira "the wonderful" star in the following articles
 
-[!badge text="Article 1"](https://astrobob.areavoices.com/2019/10/08/meet-mira-a-wonderful-and-astonishing-star/)  [!badge text="Article 2"](https://www.skyandtelescope.com/astronomy-news/miras-marvelous-tail/)
+[!badge text="Article 1"](https://web.archive.org/web/20191015155646/https://astrobob.areavoices.com/2019/10/08/meet-mira-a-wonderful-and-astonishing-star/)  [!badge text="Article 2"](https://www.skyandtelescope.com/astronomy-news/miras-marvelous-tail/)
 
 and answer the following questions. 
 
