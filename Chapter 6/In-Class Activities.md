@@ -38,7 +38,7 @@ Let us visualise how the space-time coordinates of two inertia observers in unif
 On the grid below, draw a vertical axis and label it $ct$. Draw a horizontal axis and label it $x$. This set of axes represent the inertia frame $S$. With this construction, a space-time event from the perspective of an observer in $S$ is simply a point located in the plane of the two axes. The coordinate position and coordinate time $(ct,x)$ can be read off the axes directly. Notice that position is represented on the horizontal axis while time is represented on the vertical axis. In relativity, it is conventional to represent time on the vertical axis. Moreover, the space-time diagram gives both axes the same units by scaling the vertical axis by the speed of light, $c$.
 
 <span id="grid"></span>
-![](<Resources/Chapter 6/grid2.jpg>)
+![](</Resources/Chapter 6/grid2.jpg>)
 
 Next, we represent the space-time diagram, $(ct',x')$, for frame $S'$ on the same grid. To draw the $ct'$ axis, we examine various coordinate points where $x'=0$. First, using Lorentz transformation [LT (1)](<Lorentz Transformation#sixpointfourteen>), show that $x=\gamma\beta$ and $ct=\gamma$ when \{$x'=0,ct'=1$\}.
 

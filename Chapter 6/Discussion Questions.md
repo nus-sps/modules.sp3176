@@ -33,7 +33,7 @@ Note: This relation is the relativistic version of the classical velocity additi
 2. **Worldline trajectories.** Consider a (1+1 D) Minkowski space-time diagram where the vertical axis is $c$ multiply by time, and the horizontal axis is spatial position. A person located at the origin that is not moving and standing perfectly still will have his worldline indicated by the vertical thick black line on the space-time diagram as shown below.
 
 <span id="grid"></span>
-![](<Resources/Chapter 6/spacetimeDiagram.png>)
+![](</Resources/Chapter 6/spacetimeDiagram.png>)
 
 Plot the worldline of the someone on the above spacetime graph if
 he/she is 

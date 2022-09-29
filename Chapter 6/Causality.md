@@ -26,7 +26,7 @@ Without any constraint on how fast information can travel, the causal
 structure of space and time can be illustrated in Figure [1](#ClassicalCausal). 
 
 <span id="ClassicalCausal"></span>
-![Figure 1. The causal structure of space and time before relativity.](<Resources/Chapter 6/classical causal.png>)
+![Figure 1. The causal structure of space and time before relativity.](</Resources/Chapter 6/classical causal.png>)
 
 Two events $p$ and $q$ will fall in either of the following mutually
 exclusive cases: (1) $q$ is to the past of $p$, thus possible for
@@ -37,7 +37,7 @@ events, thus impossible for them to influence each other.
 However, the above description of causality is incorrect! Information does take time to travel, and without information transfer, one event cannot influence another. As we have learnt from special relativity, the speed limit at which information can travel is the speed of light $c=2.998\times10^{8}\text{ m/s}$. By taking into account this speed limit, the new causal structure of space and time is as illustrated below. (Figure [2](#RelativisticCausal))
 
 <span id="RelativisticCausal"></span>
-![Figure 2. The more accurate causal structure of space and time. The events in the past and future of $p$ that have possibilities of cause and effect are constrained within the past and future *light cones*.](<Resources/Chapter 6/relativistic causal.png>)
+![Figure 2. The more accurate causal structure of space and time. The events in the past and future of $p$ that have possibilities of cause and effect are constrained within the past and future *light cones*.](<R/esources/Chapter 6/relativistic causal.png>)
 
 Note that the light cones in Figure [2](#RelativisticCausal) are the  three-dimensional generalisation of the world lines of a light signal in the Minkowski space-time diagram (Section 6.8.1). Here the events $p$ and $q$ will fall in one of the following categories.
 
