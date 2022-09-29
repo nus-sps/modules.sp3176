@@ -18,7 +18,7 @@ The notes for The Universe are also available for download.
 | Chapter 3 | [Atoms and Light](https://canvas.nus.edu.sg/files/194216/download?download_frd=1)                     |
 | Chapter 4 | [Molecules](https://canvas.nus.edu.sg/files/241022/download?download_frd=1)                           |
 | Chapter 5 | [Through the Looking Glass](https://canvas.nus.edu.sg/files/275171/download?download_frd=1)           |
-| Chapter 6 | Space and Time                      |
+| Chapter 6 | [Space and Time](https://canvas.nus.edu.sg/files/346818/download?download_frd=1)                      |
 | Chapter 7 | Expanding Universe                  |
 | Chapter 8 | Big Bang Theory                     |
 
