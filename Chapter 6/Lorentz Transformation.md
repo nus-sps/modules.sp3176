@@ -42,10 +42,10 @@ is the speed of light. Notice that there is now a transformation for the time co
 <span id="sixpointfifteen"></span>
 $$
 \begin{align}
-ct &= \gamma(ct'+\beta x)\nonumber \\
-x &=  \gamma(x'+\beta ct)\nonumber\\
-y &=  y'\nonumber \\
-z &=  z'
+ct' &= \gamma(ct+\beta x)\nonumber \\
+x' &=  \gamma(x+\beta ct)\nonumber\\
+y' &=  y\nonumber \\
+z' &=  z
 \end{align}
 $$
 
