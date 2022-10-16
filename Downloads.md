@@ -20,7 +20,7 @@ The notes for The Universe are also available for download.
 | Chapter 5 | [Through the Looking Glass](https://canvas.nus.edu.sg/files/275171/download?download_frd=1)           |
 | Chapter 6 | [Space and Time](https://canvas.nus.edu.sg/files/346818/download?download_frd=1)                      |
 | Chapter 7 | [Expanding Universe](https://canvas.nus.edu.sg/files/376752/download?download_frd=1)                  |
-| Chapter 8 | Big Bang Theory                     |
+| Chapter 8 | [Big Bang Theory](https://canvas.nus.edu.sg/files/442682/download?download_frd=1)                     |
 
 ## Assignments
 
@@ -30,7 +30,7 @@ The notes for The Universe are also available for download.
 | Assignment 1 | [Jupiter's Moon and the Speed of Light](https://canvas.nus.edu.sg/files/173146/download?download_frd=1) |
 | Assignment 2 | [Three Body Problem](https://canvas.nus.edu.sg/files/215326/download?download_frd=1)                    |
 | Assignment 3 | [Distance to M100](https://canvas.nus.edu.sg/files/320257/download?download_frd=1)                      |
-| Assignment 4 | Cosmological Models                   |
+| Assignment 4 | [Cosmological Models](https://canvas.nus.edu.sg/files/435568/download?download_frd=1)                   |
 
 
 ## Manuals and Addendums
