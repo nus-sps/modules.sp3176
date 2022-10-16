@@ -8,7 +8,7 @@ author:
     email: matlzh@nus.edu.sg
     link: https://sps.nus.edu.sg/user/lim.zhihan/
     avatar: https://sps.nus.edu.sg/wp-content/uploads/2019/06/logo_sps20.png
-date: 2022-07-25T20:54
+date: 2022-10-16T1200
 description: "Schedule AY22/23"
 ---
 
@@ -23,11 +23,13 @@ description: "Schedule AY22/23"
 |       5 | Ch. 4 Molecules                           | Ch. 3 Atoms and Light                                 |
 |       6 | Ch. 5 Through the Looking Glass           | Ch. 4 Molecules                                       |
 |  Recess |                                           |                                                       |
-|       7 | Ch. 5 Through the Looking Glass           | Ch. 5 Through the Looking Glass                       |
-|       8 | Ch. 6 Space and Time                      | Ch. 5 Through the Looking Glass                       |
-|       9 | Ch. 7 Expanding Universe                  | Ch. 6 Space and Time                                  |
-|      10 | Ch. 7 Expanding Universe                  | Ch. 7 Expanding Universe                              |
+|       7 | Ch. 6 Space and Time                      | Ch. 5 Through the Looking Glass                       |
+|       8 | Ch. 7 Expanding Universe                  | Ch. 6 Space and Time                                  |
+|       9 | Ch. 7 Expanding Universe                  | Ch. 7 Expanding Universe                              |
+|      10 | Ch. 8 Big bang theory                     | Ch. 7 Expanding Universe                              |
 |      11 | Ch. 8 Big bang theory                     | No tutorial                                           |
-|      12 | Ch. 8 Big bang theory                     | Ch. 8 Big bang theory                                 |
-|      13 | Mini-project presentation                 | No tutorial                                           |
+|      12 | Test Paper Discussion                     | Ch. 8 Big bang theory                                 |
+|      13 | Mini-project presentation                 | Test Paper Discussion                                 |
 | Reading |                                           |                                                       |
+
+Test is on Monday, 14th November, 10am-12pm (Reading Week)

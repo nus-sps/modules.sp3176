@@ -3,7 +3,7 @@ output: .retype
 url: https://nus-sps.github.io/modules.sp3176//
 branding:
   title: The Universe
-  label: v1.9.1
+  label: v1.10.1
 links:
 - text: SPS Website
   link: https://sps.nus.edu.sg/
