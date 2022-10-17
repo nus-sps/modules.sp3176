@@ -78,8 +78,7 @@ that the metric of spacetime can be dependent on space and time, and
 such dependency is related to the energy content in the system. In
 1917, Einstein and his contemporaries began to apply GR to cosmology.
 Since this more than a decade before Hubble's 1929 observations on
-receeding galaxies, Einstein believed that our universe has to be **
-static** . However, the theory as-is could not result give rise to a
+receeding galaxies, Einstein believed that our universe has to be **static** . However, the theory as-is could not result give rise to a
 static universe. Perhaps then the theory needs to be modified when
 applied to cosmology? Einstein thought. 
 
