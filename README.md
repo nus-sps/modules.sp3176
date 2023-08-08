@@ -6,9 +6,6 @@ icon: ":gem:"
 ---
 # Welcome!
 
-!!!ghost Submissions for Astro Night
-Have nice photos you wish to see on the SPS wall? Submit your photos now to the link above me! "Photo Submissions"
-!!!
 
 Welcome to the homepage for SP3176: The Universe.
 
