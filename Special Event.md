@@ -11,8 +11,6 @@ author:
 date: 2022-10-04T17:30
 ---
 
-!!! THIS EVENT IS OVER !!!
-
 # Astro Night Special Event
 
 Join us for a (slightly) different Astro Night on 5th of October as our resident astronomer, Derek Yuen, brings us through the process of stacking and image processing in Astrophotography.
