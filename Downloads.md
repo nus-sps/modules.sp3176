@@ -26,11 +26,11 @@ The notes for The Universe are also available for download.
 
 | Assignment   | Link                                                                                                    |
 |--------------|---------------------------------------------------------------------------------------------------------|
-| Assignment 0 | [Murderous Mathematics](https://canvas.nus.edu.sg/files/33287/download?download_frd=1)                  |
-| Assignment 1 | [Jupiter's Moon and the Speed of Light](https://canvas.nus.edu.sg/files/173146/download?download_frd=1) |
-| Assignment 2 | [Three Body Problem](https://canvas.nus.edu.sg/files/215326/download?download_frd=1)                    |
-| Assignment 3 | [Distance to M100](https://canvas.nus.edu.sg/files/320257/download?download_frd=1)                      |
-| Assignment 4 | [Cosmological Models](https://canvas.nus.edu.sg/files/435568/download?download_frd=1)                   |
+| Assignment 0 | Murderous Mathematics                  |
+| Assignment 1 | Jupiter's Moon and the Speed of Light |
+| Assignment 2 | Three Body Problem                    |
+| Assignment 3 | Distance to M100                   |
+| Assignment 4 | Cosmological Models                   |
 
 
 ## Manuals and Addendums
