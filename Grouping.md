@@ -11,4 +11,4 @@ You have three groups in SP3176: The Universe! Find your field trip group, Atomi
 
 Alternatively, change it on the SP3176 Admin Document on Google Sheets.
 
-[!embed]("https://docs.google.com/spreadsheets/d/e/2PACX-1vTzBKI0Lhq4fygFTXvmPlUkmCPU71UEdanYEMQpgnFxpN_LkzLY95kHVQ5TclFCaeu_4l567TKhtDPn/pubhtml?gid=1298363115&amp;single=true&amp;widget=true&amp;headers=false")
+[!embed]("https://docs.google.com/spreadsheets/d/e/2PACX-1vTzBKI0Lhq4fygFTXvmPlUkmCPU71UEdanYEMQpgnFxpN_LkzLY95kHVQ5TclFCaeu_4l567TKhtDPn/pubhtml?gid=1298363115&single=true")
