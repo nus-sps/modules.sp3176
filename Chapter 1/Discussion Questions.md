@@ -8,7 +8,7 @@ author:
     email: matlzh@nus.edu.sg
     link: https://sps.nus.edu.sg/user/lim.zhihan/
     avatar: https://sps.nus.edu.sg/wp-content/uploads/2019/06/logo_sps20.png
-date: 2022-07-30T01:21
+date: 2023-07-30T01:21
 description: "Chapter 1 : Discovering our Universe"
 ---
 
@@ -48,4 +48,4 @@ the ancient Greeks to the modern view.
 8. Oh no! Matthew has stolen the SPS telescope again! This time around, he has brought it into the mangroves in Pulau Ubin, and is using it to observe fireflies. Assuming that he is 50m away from the fireflies, and fireflies are blinking yellow (580nm), how far apart must they be for him to discern them apart?
 
   *The SPS telescope has an aperture of 15.24cm.*
-  
+
