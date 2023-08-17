@@ -42,10 +42,7 @@ Also suppose that the typical size of a star is 1 million km, and
 typical separation between stars is 5 light years. Discuss the implications
 on stellar and galactic collisions.
 
-7. Write a short summary of the evolution of ideas of our Universe from
-the ancient Greeks to the modern view. 
-
-8. Oh no! Matthew has stolen the SPS telescope again! This time around, he has brought it into the mangroves in Pulau Ubin, and is using it to observe fireflies. Assuming that he is 50m away from the fireflies, and fireflies are blinking yellow (580nm), how far apart must they be for him to discern them apart?
+7. Oh no! Matthew has stolen the SPS telescope again! This time around, he has brought it into the mangroves in Pulau Ubin, and is using it to observe fireflies. Assuming that he is 50m away from the fireflies, and fireflies are blinking yellow (580nm), how far apart must they be for him to discern them apart?
 
   *The SPS telescope has an aperture of 15.24cm.*
 
