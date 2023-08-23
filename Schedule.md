@@ -8,7 +8,7 @@ author:
     email: matlzh@nus.edu.sg
     link: https://sps.nus.edu.sg/user/lim.zhihan/
     avatar: https://sps.nus.edu.sg/wp-content/uploads/2019/06/logo_sps20.png
-date: 2022-10-16T1200
+date: 2022-10-16T12:00
 description: "Schedule AY23/24"
 ---
 
