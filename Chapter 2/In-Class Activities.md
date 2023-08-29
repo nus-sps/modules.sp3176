@@ -109,6 +109,11 @@ while t<15000000000:
 
 Run the code in [!badge icon="/resources/common/trinket-logo.png" target="blank" text="Trinket"](https://trinket.io/glowscript/7bdf9fcfab).
 
+==- Trinket Demo
+
+[!embed](https://trinket.io/embed/glowscript/7bdf9fcfab?start=result)
+===
+
 In your program, change parameters one at a time and observe the difference
 in results. For example change the initial Earth momentum to 
 ```
