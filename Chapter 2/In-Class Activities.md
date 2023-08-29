@@ -107,7 +107,7 @@ while t<15000000000:
     t=t+dt
 ```
 
-Run the code in [!badge icon="/resources/common/trinket-logo.png" text="Trinket"](https://trinket.io/glowscript/7bdf9fcfab).
+Run the code in [!badge icon="/resources/common/trinket-logo.png" target="blank" text="Trinket"](https://trinket.io/glowscript/7bdf9fcfab).
 
 In your program, change parameters one at a time and observe the difference
 in results. For example change the initial Earth momentum to 
@@ -119,7 +119,7 @@ Play around and record any notable ''discoveries''.
 
 
 
-Get an account in [!badge icon="/resources/common/trinket-logo.png" text="Trinket"](https://trinket.io). Sign in, create a new trinket
+Get an account in [!badge icon="/resources/common/trinket-logo.png" target="blank" text="Trinket"](https://trinket.io). Sign in, create a new trinket
 program (select Glowscript) and copy and paste the the Sun-Earth code.
 Now the program is yours!
 
