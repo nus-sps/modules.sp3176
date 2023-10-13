@@ -17,7 +17,7 @@ Join us for a (slightly) different Astro Night on 13th of October as ~~our resid
 
 ## Event Details
 
-**Date**: 13th October 2022
+**Date**: 13th October 2023
 
 **Time**: 6pm - 8pm
 
