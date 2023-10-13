@@ -41,7 +41,7 @@ he/she is
 a. Moving with a constant velocity $v$ such that ${\displaystyle \frac{v}{c}=\frac{dx}{d(ct)}<1}$
 b. Move with a constant velocity $v=c$.
 c. Move with a constant velocity $v>c$.
-d. egins motion at origin with $v=0$, and reaches a velocity of $v=0.999\,c$
+d. Begins motion at origin with $v=0$, and reaches a velocity of $v=0.999\,c$
 after some time.
 
 ---
