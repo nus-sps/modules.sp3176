@@ -41,7 +41,7 @@ is much larger than the energy difference between the proton and neutron
 <span id="8.13"></span>
 $$
 \begin{equation}
-(m_p-m_n)c^2=1.293.
+(m_p-m_n)c^2=-1.293.
 \end{equation}
 $$
 
@@ -78,7 +78,7 @@ The ratio of the number density of neutrons and protons is given by the Boltzman
 <span id="8.16"></span>
 $$
 \begin{equation}
-\frac{n_n}{n_p}=\exp[-(m_p-m_n)c^2/kT]=0.985.
+\frac{n_n}{n_p}=\exp[(m_p-m_n)c^2/kT]=0.985.
 \end{equation}
 $$
 
