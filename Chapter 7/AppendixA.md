@@ -1,5 +1,5 @@
 ---
-label: Chapter 7 Appendix A
+label: Appendix A
 layout: page
 icon: ":pencil:"
 order: -5
