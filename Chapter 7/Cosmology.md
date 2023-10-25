@@ -55,7 +55,7 @@ the following equations[^1]:
 [^1]: I have for some years taken GR out of the course in order to maintain
 sanity for most (including myself). If you are interest to learn a
 tiny bit of GR to see how the following equations are derived, See
-[Appendix A](Appendix).
+[Appendix A](AppendixA).
 
 <span id="GR_Friedmann1"></span>
 $$

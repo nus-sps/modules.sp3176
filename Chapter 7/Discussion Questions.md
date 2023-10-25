@@ -68,7 +68,7 @@ $$
 Show that the intergration on the RHS is less than 1. 
 
 If you are interested in deriving Eq.([4](#H0t0)), please see
-[Appendix B](Appendix).
+[Appendix B](AppendixB).
 
 ---
 
