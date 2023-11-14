@@ -21,12 +21,12 @@ The notes for The Universe are also available for download.
 |-----------|-------------------------------------------------------------------------------------------------------|
 | Chapter 1 | [Discovering the Universe](https://canvas.nus.edu.sg/files/2084588/download?download_frd=1)           |
 | Chapter 2 | Falling Apples and Orbiting Planets|
-| Chapter 3 | Atoms and Light                     |
-| Chapter 4 | Molecules                           |
-| Chapter 5 | Through the Looking Glass         |
-| Chapter 6 | Space and Time                |
-| Chapter 7 | Expanding Universe                |
-| Chapter 8 | Big Bang Theory                   |
+| Chapter 3 | Atoms and Light                    |
+| Chapter 4 | Molecules                          |
+| Chapter 5 | Through the Looking Glass          |
+| Chapter 6 | Space and Time                     |
+| Chapter 7 | Expanding Universe                 |
+| Chapter 8 | Big Bang Theory                    |
 
 ## Assignments
 
@@ -35,8 +35,8 @@ The notes for The Universe are also available for download.
 | Assignment 0 | [Murderous Mathematics](https://canvas.nus.edu.sg/files/2097089/download?download_frd=1)                |
 | Assignment 1 | [Jupiter's Moon and the Speed of Light](https://canvas.nus.edu.sg/files/2097090/download?download_frd=1)|
 | Assignment 2 | [Three Body Problem](https://canvas.nus.edu.sg/files/2097092/download?download_frd=1)                   |
-| Assignment 3 | [Distance to M100](https://canvas.nus.edu.sg/files/2097097/download?download_frd=1)                   |
-| Assignment 4 | [Cosmological Models](https://canvas.nus.edu.sg/files/2097101/download?download_frd=1)                   |
+| Assignment 3 | [Distance to M100](https://canvas.nus.edu.sg/files/2097097/download?download_frd=1)                     |
+| Assignment 4 | [Cosmological Models](https://canvas.nus.edu.sg/files/2097101/download?download_frd=1)                  |
 
 
 ## Manuals and Addendums
@@ -50,6 +50,13 @@ The notes for The Universe are also available for download.
 | Spectroscopy Manual | [Link](https://canvas.nus.edu.sg/files/2097106/download?download_frd=1) |
 | Alternative Universe Project  | [Link](https://canvas.nus.edu.sg/files/2097110/download?download_frd=1) |
     
-
-
+### Spectroscopy Part II Links
+| Document            | Link                                                                    |
+|---------------------|-------------------------------------------------------------------------|
+| Atomic Spectra Summary  | [Link](https://chem.libretexts.org/Courses/Furman_University/CHM101%3A_Chemistry_and_Global_Awareness_(Gordon)/04%3A_Valence_Electrons_and_Bonding/4.02%3A_Understanding_Atomic_Spectra) |
+| Diffraction Gratings and Spectroscopy    | [Link](http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/grating.html) |
+| Science Workshop 500 Interface Manual | [Link](https://cdn.pasco.com/product_document/ScienceWorkshop-500-Interface-Manual-CI-6400.pdf) |
+| Light Sensor Manual         | [Link](https://cdn.pasco.com/product_document/Light-Sensor-Manual-CI-6504A-6604.pdf) |
+| Star Analyser 100 Grating | [Link](https://www.rspec-astro.com/star-analyser/) |
+| RSPEC Sample Experiment  | [Link](https://www.rspec-astro.com/sample-projects/) |
 
