@@ -31,4 +31,4 @@ description: "Schedule AY23/24"
 |          12 | Test paper discussion                     | No tutorial                                               |
 |          13 | Project presentation                      | Test paper discussion                                     |
 
-Test on 20 Nov (Monday of Reading Week) 10am--12pm
+AY24/25 Test date tentatively Monday of Reading Week, 10am--12pm
