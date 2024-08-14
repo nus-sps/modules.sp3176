@@ -6,7 +6,7 @@ author:
   - name: Ryan Phillips
     email: ryan.phillips21@sps.nus.edu.sg
     link: https://sps.nus.edu.sg/user/ryan.phillips21/
-    avatar: 
+    avatar: https://sps.nus.edu.sg/wp-content/uploads/ultimatemember/232/profile_photo-190x190.jpg?1723621545
 date: 2023-09-13T00:00
 description: "Light and Atoms"
 ---
