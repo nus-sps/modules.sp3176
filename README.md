@@ -15,4 +15,4 @@ This module traces the developments in theoretical and observational cosmology, 
 
 ## Course Weightage
 
-[!embed](https://docs.google.com/spreadsheets/d/e/2PACX-1vTzBKI0Lhq4fygFTXvmPlUkmCPU71UEdanYEMQpgnFxpN_LkzLY95kHVQ5TclFCaeu_4l567TKhtDPn/pubhtml?gid=646510189&amp;single=true&amp;widget=true&amp;headers=false)
+[!embed](https://docs.google.com/spreadsheets/d/1XY5kkIHzC6d_ThosRZjnn3zR8rNTRC2-ebwszQSAeP4/pubhtml?gid=646510189&amp;single=true&amp;widget=true&amp;headers=false&range=A1:V13)
