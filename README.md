@@ -6,6 +6,7 @@ icon: ":gem:"
 ---
 # Welcome!
 
+Eric was here!
 
 Welcome to the homepage for SP3176: The Universe.
 
