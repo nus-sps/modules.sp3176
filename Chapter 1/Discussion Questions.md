@@ -29,7 +29,7 @@ of Earth in the rest frame of the Sun?
 years. How fast do we need to move? How about reaching Andromeda Galaxy
 (nearest galaxy to us) in 100 years?
 
-5. The Moon's equatorial diameter is 3.476 km and its orbital distance
+5. The Moon's equatorial diameter is 3,476 km and its orbital distance
 from Earth varies between 356 400 km and 406 700 km. The Sun's diameter
 is 1390 000 km and distance from Earth ranges between 147.5 and 152.6
 million km. Find the Moon's and Sun' angular size at their respective
