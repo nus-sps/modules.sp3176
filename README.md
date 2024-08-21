@@ -6,8 +6,6 @@ icon: ":gem:"
 ---
 # Welcome!
 
-Eric was here!
-
 Welcome to the homepage for SP3176: The Universe.
 
 Here you'll find links to lessons, assignments, as well as a mobile friendly version of the notes.
