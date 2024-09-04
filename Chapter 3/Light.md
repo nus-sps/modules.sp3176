@@ -146,7 +146,7 @@ $x$ represents position in the x-axis and $t$ represents time, which
 are typically the variables which we cannot control. In nomenclature,
 $A$ is known as the amplitude, $\phi$ the phase of the wave, $k$
 the angular wavenumber and $\omega$ the angular frequency. $k$ and
-$\omega$ are related to wavelenght and frequency via the following
+$\omega$ are related to wavelength and frequency via the following
 equations;
 <span id="wavenumber"></span>
 <span id="angfreq"></span>
