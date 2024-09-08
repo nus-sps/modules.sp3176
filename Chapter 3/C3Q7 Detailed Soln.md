@@ -35,12 +35,14 @@ $$
 
 where $V(x)$ is the potential at any point in space. For simplicity, we assumed $V(x)=0$ inside the box and that the particle's wavefunction does not change with time. 
 
-Recall that Schrödinger's equation states that 
+Next, we need the Schrödinger's equation, though it is a difficult equation to solve as it has derivatives in both time $t$ and position $x$. If one is interested to find the "stationary solutions", such as standing waves, then it is beneficial to remove time from the SE.
+
+Recall the Time-independent Schrödinger's equation states that 
 $$
 \left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V(x)\right)\,\psi(x)=E\psi(x)
 $$
 
-Inside the box $0<x<L$ where $V=0,$ we have
+Inside the box $0<x<L$ where $V(x)=0,$ we have
 
 <span id="RSP_Piab_1"></span>
 $$
@@ -49,11 +51,11 @@ $$
 \end{align}
 $$
 
-and the wavefunction outside the box must obey 
+and the wavefunction outside the box must obey $V(x)=\infty,$
 
 $$
 \begin{align}
--\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}+\infty\,\psi(x)=E\psi(x) \nonumber
+\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}+\infty \right)\psi(x) =E\psi(x) \nonumber
 \end{align}
 $$
 
@@ -70,7 +72,7 @@ $$
 \psi(L) & =0 
 \end{align}
 $$
-But now, what about the wavefunction inside the box?
+But now, what about the wavefunction inside the box for $0 < x< L$?
 
 ### Step 2: Observe the differential equation
 
@@ -82,7 +84,7 @@ $$
 \psi(x)=ce^{\lambda x}
 \end{align}
 $$
-where $\lambda$ is a complex value.
+where $\lambda$ is a complex value. If you've forgotten why, see [3.5.1 The Wavefunction and Schrödinger's equation](</Chapter 3/Quantum Mechanics#generalWave>).
 
 Taking the first and second derivative,
 
@@ -163,7 +165,7 @@ $$
 Notice that for Eq.([8](#RSP_Piab_8)), the sine function only returns 0 when $\underline{kL = n\pi}$, where $n$ takes positive integer values. See Figure 1 below.
 
 <span id="Sine_and_Cosine"></span>
-![Figure 1: A sine curve. Points where $\sin(x)=0$ are integer multiples of $\pi$. Taken from <a href="https://en.wikipedia.org/wiki/Sine_wave">Wikipedia</a>](</Resources/Chapter 3/Sine_and_Cosine.svg>)
+![Figure 1: Sine and cosine curves. Points where $\sin(x)=0$ are integer multiples of $\pi$. Taken from <a href="https://en.wikipedia.org/wiki/Sine_wave">Wikipedia</a>](</Resources/Chapter 3/Sine_and_Cosine.svg>)
 
 At this point, we can already obtain the energy states equation. First, we rearrange the finding from Eq.([8](#RSP_Piab_8)):
 
@@ -198,7 +200,7 @@ $$
 
 where $A$ is a complex constant.
 
-Recall that 
+Recall our normalization condition  
 $$
 \int_{-\infin}^{\infin} |\Psi|^2 \space dx= 1
 $$
@@ -208,7 +210,7 @@ hence
 $$
 \begin{align}
 \int_{-\infin}^{\infin} \psi(x)\psi^*(x) \space dx &= 1 \nonumber \\
-\int_{-\infin}^{\infin} A^2 \sin^2(kx) \space dx &= 1 \nonumber \\
+\int_{-\infin}^{\infin} |A|^2 \sin^2(kx) \space dx &= 1 \nonumber \\
 \int_{-\infin}^{\infin} \sin^2(kx) \space dx &= \frac{1}{A^2}  \\
 \end{align}
 $$
@@ -239,10 +241,14 @@ $$
 $$
 and it's allowed energy levels are given by Eq.([9](#RSP_Piab_9)). 
 
-Note that the wavefunction in Eq.([11](#RSP_Piab_11)) can take either positive or negative values of $A$ because it has no physical meaning after all. We are mainly interested in the square of the wavefunction which ignores the positive or negative sign.
+Note that the wavefunction in Eq.([11](#RSP_Piab_11)) can take either positive or negative values of $A$. Wavefunctions have no physical meaning so it does not matter which we take since we are only concerned with the square of the wavefunction. Squared values are always positive.
 
 Also important is to recall that $n$ takes only positive integer
 values, thus effectively quantising the energy states and wavefunction.
-For this reason, $n$ is known as the quantum number for particle
+For this reason, $n$ is known as the quantum number for the particle
 in a box. 
 
+!!! BONUS
+For those interested in simulating the energies and wavefunctions for a particle in a box before and after perturbations, download this [!badge icon="/resources/common/Jupyter-icon.png" target="blank" text="Jupyter Notebook"](link) and explore on your own!  
+
+!!!
