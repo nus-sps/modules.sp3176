@@ -162,7 +162,7 @@ c_{1}[2i \sin(kL)] = 0
 \end{align}
 $$
 
-Notice that for Eq.([8](#RSP_Piab_8)), the sine function only returns 0 when $\underline{kL = n\pi}$, where $n$ takes positive integer values. See Figure 1 below.
+We don't have to worry about the complex constants $2ic_{1}$ and can simplify it to some $A$. What's more important is that for Eq.([8](#RSP_Piab_8)), the sine function only returns 0 when $\underline{kL = n\pi}$, where $n$ takes positive integer values. See Figure 1 below.
 
 <span id="Sine_and_Cosine"></span>
 ![Figure 1: Sine and cosine curves. Points where $\sin(x)=0$ are integer multiples of $\pi$. Taken from <a href="https://en.wikipedia.org/wiki/Sine_wave">Wikipedia</a>](</Resources/Chapter 3/Sine_and_Cosine.svg>)
@@ -189,11 +189,13 @@ E &= \frac{\hbar^{2}n^{2}\pi^{2}}{2mL^{2}}  \\
 \end{align}
 $$
 
-
+Unlike Bohr’s atomic model which **postulated** that discrete energy levels exist,
+Schrodinger’s derivation **naturally shows** that energy levels must take discrete values! Recall $n$ takes only positive integer
+values, and is also known as the quantum number. 
 
 ### Step 4: Normalize the wavefunction
 
-Consequently, 
+Consequently, from Eq.([8](#RSP_Piab_8)) we have
 $$
 \psi(x)=A\sin kx
 $$
@@ -241,14 +243,20 @@ $$
 $$
 and it's allowed energy levels are given by Eq.([9](#RSP_Piab_9)). 
 
-Note that the wavefunction in Eq.([11](#RSP_Piab_11)) can take either positive or negative values of $A$. Wavefunctions have no physical meaning so it does not matter which we take since we are only concerned with the square of the wavefunction. Squared values are always positive.
+Note that the wavefunction in Eq.([11](#RSP_Piab_11)) can take either positive or negative values of $A$. Wavefunctions have no physical meaning so it does not matter which we take;  squared values are always positive. 
 
-Also important is to recall that $n$ takes only positive integer
-values, thus effectively quantising the energy states and wavefunction.
-For this reason, $n$ is known as the quantum number for the particle
-in a box. 
+We are only concerned with the square of the wavefunction as it gives us the Probability Density Function which tells us the probability of finding the particle within $x_0$ and $x_1$.
 
-!!! BONUS
-For those interested in simulating the energies and wavefunctions for a particle in a box before and after perturbations, download this [!badge icon="/resources/common/Jupyter-icon.png" target="blank" text="Jupyter Notebook"](link) and explore on your own!  
+$$
+\begin{align}
+P(x_0<x<x_1) &= \int_{x_0}^{x_1} \psi(x)\psi^*(x) \space dx \nonumber \\
+&= \int_{x_0}^{x_1} |\psi(x)|^2 \space dx \\
+
+\end{align}
+$$
+
+
+!!! Bonus
+For those interested in simulating the energies and wavefunctions for a particle in a box before and after perturbations, visit this [!badge icon="/resources/common/Colab.jpg" target="blank" text="Google Colab"](https://colab.research.google.com/drive/1CejNKVGhs_NYrOwHSicezg-w1jzloZpK?usp=sharing) and explore on your own!  
 
 !!!
