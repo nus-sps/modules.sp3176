@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/modules.sp3176">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.779105519183">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.779108126404">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -31,11 +31,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.779105519183" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.779108126404" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.779105519183" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.779108126404" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.779105519183" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.779108126404" data-turbo-eval="false" defer></script>
     <link href="../../resources/css/katex.css?v=3.5.0" rel="stylesheet">
     <script id="katex-js" data-cfasync="false" src="../../resources/js/katex.js?v=3.5.0" defer></script>
 
@@ -379,7 +379,7 @@ e^{ix}-e^{-ix}  = 2i \sin(x)  \nonumber \\
 c_{1}(e^{ikL}-e^{-ikL})  = 0 \nonumber \\
 c_{1}[2i \sin(kL)] = 0
 \end{align}</pre></div>
-<p>Notice that for Eq.(<doc-anchor-trigger to="#RSP_Piab_8">8</doc-anchor-trigger>), the sine function only returns 0 when <span class="math">\underline{kL = n\pi}</span>, where <span class="math">n</span> takes positive integer values. See Figure 1 below.</p>
+<p>We don&#x27;t have to worry about the complex constants <span class="math">2ic_{1}</span> and can simplify it to some <span class="math">A</span>. What&#x27;s more important is that for Eq.(<doc-anchor-trigger to="#RSP_Piab_8">8</doc-anchor-trigger>), the sine function only returns 0 when <span class="math">\underline{kL = n\pi}</span>, where <span class="math">n</span> takes positive integer values. See Figure 1 below.</p>
 <p><span id="Sine_and_Cosine"></span>
 <figure class="content-center">
     <img src="../../resources/chapter-3/sine_and_cosine.svg" alt="Figure 1: Sine and cosine curves. Points where \sin(x)=0 are integer multiples of \pi. Taken from Wikipedia">
@@ -399,13 +399,16 @@ k^2 &amp;= \frac{2mE}{\hbar^2} \nonumber \\
 \frac{n^2 \pi^2}{L^2} &amp;= \frac{2mE}{\hbar^2} \nonumber \\
 E &amp;= \frac{\hbar^{2}n^{2}\pi^{2}}{2mL^{2}}  \\
 \end{align}</pre></div>
+<p>Unlike Bohr’s atomic model which <strong>postulated</strong> that discrete energy levels exist,
+Schrodinger’s derivation <strong>naturally shows</strong> that energy levels must take discrete values! Recall <span class="math">n</span> takes only positive integer
+values, and is also known as the quantum number.</p>
 <doc-anchor-target id="step-4-normalize-the-wavefunction">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#step-4-normalize-the-wavefunction">#</doc-anchor-trigger>
         <span>Step 4: Normalize the wavefunction</span>
     </h3>
 </doc-anchor-target>
-<p>Consequently,</p>
+<p>Consequently, from Eq.(<doc-anchor-trigger to="#RSP_Piab_8">8</doc-anchor-trigger>) we have</p>
 <div class="math"><pre>\psi(x)=A\sin kx</pre></div>
 <p>where <span class="math">A</span> is a complex constant.</p>
 <p>Recall our normalization condition</p>
@@ -435,11 +438,13 @@ A &amp;= \pm\sqrt{\frac{2}{L}} \nonumber \\
 \psi(x)=\sqrt{\frac{2}{L}}\sin\left(\frac{n\pi}{L}x\right)
 \end{equation}</pre></div>
 <p>and it&#x27;s allowed energy levels are given by Eq.(<doc-anchor-trigger to="#RSP_Piab_9">9</doc-anchor-trigger>).</p>
-<p>Note that the wavefunction in Eq.(<doc-anchor-trigger to="#RSP_Piab_11">11</doc-anchor-trigger>) can take either positive or negative values of <span class="math">A</span>. Wavefunctions have no physical meaning so it does not matter which we take since we are only concerned with the square of the wavefunction. Squared values are always positive.</p>
-<p>Also important is to recall that <span class="math">n</span> takes only positive integer
-values, thus effectively quantising the energy states and wavefunction.
-For this reason, <span class="math">n</span> is known as the quantum number for the particle
-in a box.</p>
+<p>Note that the wavefunction in Eq.(<doc-anchor-trigger to="#RSP_Piab_11">11</doc-anchor-trigger>) can take either positive or negative values of <span class="math">A</span>. Wavefunctions have no physical meaning so it does not matter which we take;  squared values are always positive.</p>
+<p>We are only concerned with the square of the wavefunction as it gives us the Probability Density Function which tells us the probability of finding the particle within <span class="math">x_0</span> and <span class="math">x_1</span>.</p>
+<div class="math"><pre>\begin{align}
+P(x_0&lt;x&lt;x_1) &amp;= \int_{x_0}^{x_1} \psi(x)\psi^*(x) \space dx \nonumber \\
+&amp;= \int_{x_0}^{x_1} |\psi(x)|^2 \space dx \\
+
+\end{align}</pre></div>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -453,10 +458,10 @@ in a box.</p>
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>BONUS</h5>
-<p>For those interested in simulating the energies and wavefunctions for a particle in a box before and after perturbations, download this <a href="link" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
-    <span><img class="mb-px inline-flex mr-2" width="18" src="../../resources/common/jupyter-icon.png"></span>
-    <span>Jupyter Notebook</span>
+            <h5>Bonus</h5>
+<p>For those interested in simulating the energies and wavefunctions for a particle in a box before and after perturbations, visit this <a href="https://colab.research.google.com/drive/1CejNKVGhs_NYrOwHSicezg-w1jzloZpK?usp=sharing" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span><img class="mb-px inline-flex mr-2" width="18" src="../../resources/common/colab.jpg"></span>
+    <span>Google Colab</span>
 </a> and explore on your own!</p>
         </div>
     </div>
