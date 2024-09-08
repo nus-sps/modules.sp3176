@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/modules.sp3176">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.779105476579">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.779105519183">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -31,11 +31,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.779105476579" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.779105519183" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.779105476579" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.779105519183" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.779105476579" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.779105519183" data-turbo-eval="false" defer></script>
     <link href="../../resources/css/katex.css?v=3.5.0" rel="stylesheet">
     <script id="katex-js" data-cfasync="false" src="../../resources/js/katex.js?v=3.5.0" defer></script>
 
@@ -293,16 +293,17 @@ the following boundary conditions:</p>
 \infty\text{ elsewhere}
 \end{cases}</pre></div>
 <p>where <span class="math">V(x)</span> is the potential at any point in space. For simplicity, we assumed <span class="math">V(x)=0</span> inside the box and that the particle&#x27;s wavefunction does not change with time.</p>
-<p>Recall that Schrödinger&#x27;s equation states that</p>
+<p>Next, we need the Schrödinger&#x27;s equation, though it is a difficult equation to solve as it has derivatives in both time <span class="math">t</span> and position <span class="math">x</span>. If one is interested to find the &quot;stationary solutions&quot;, such as standing waves, then it is beneficial to remove time from the SE.</p>
+<p>Recall the Time-independent Schrödinger&#x27;s equation states that</p>
 <div class="math"><pre>\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V(x)\right)\,\psi(x)=E\psi(x)</pre></div>
-<p>Inside the box <span class="math">0&lt;x&lt;L</span> where <span class="math">V=0,</span> we have</p>
+<p>Inside the box <span class="math">0&lt;x&lt;L</span> where <span class="math">V(x)=0,</span> we have</p>
 <p><span id="RSP_Piab_1"></span></p>
 <div class="math"><pre>\begin{align}
 -\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}=E\psi(x)
 \end{align}</pre></div>
-<p>and the wavefunction outside the box must obey</p>
+<p>and the wavefunction outside the box must obey <span class="math">V(x)=\infty,</span></p>
 <div class="math"><pre>\begin{align}
--\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}+\infty\,\psi(x)=E\psi(x) \nonumber
+\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}\psi(x)}{\partial x^{2}}+\infty \right)\psi(x) =E\psi(x) \nonumber
 \end{align}</pre></div>
 <p>We can make an educated assumption that the wavefunction outside the
 box must be zero such that Schrodinger&#x27;s equation still holds<a id="fnref:2" href="#fn:2" class="footnote-ref"><sup>2</sup></a>
@@ -313,7 +314,7 @@ problem:</p>
 \psi(0) &amp; =0  \\
 \psi(L) &amp; =0 
 \end{align}</pre></div>
-<p>But now, what about the wavefunction inside the box?</p>
+<p>But now, what about the wavefunction inside the box for <span class="math">0 &lt; x&lt; L</span>?</p>
 <doc-anchor-target id="step-2-observe-the-differential-equation">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#step-2-observe-the-differential-equation">#</doc-anchor-trigger>
@@ -325,7 +326,7 @@ problem:</p>
 <div class="math"><pre>\begin{align}
 \psi(x)=ce^{\lambda x}
 \end{align}</pre></div>
-<p>where <span class="math">\lambda</span> is a complex value.</p>
+<p>where <span class="math">\lambda</span> is a complex value. If you&#x27;ve forgotten why, see <a href="../quantum-mechanics/#generalWave">3.5.1 The Wavefunction and Schrödinger&#x27;s equation</a>.</p>
 <p>Taking the first and second derivative,</p>
 <div class="math"><pre>\begin{align}
 \psi'(x) &amp;=\lambda ce^{\lambda x} \nonumber \\ 
@@ -381,8 +382,8 @@ c_{1}[2i \sin(kL)] = 0
 <p>Notice that for Eq.(<doc-anchor-trigger to="#RSP_Piab_8">8</doc-anchor-trigger>), the sine function only returns 0 when <span class="math">\underline{kL = n\pi}</span>, where <span class="math">n</span> takes positive integer values. See Figure 1 below.</p>
 <p><span id="Sine_and_Cosine"></span>
 <figure class="content-center">
-    <img src="../../resources/chapter-3/sine_and_cosine.svg" alt="Figure 1: A sine curve. Points where \sin(x)=0 are integer multiples of \pi. Taken from Wikipedia">
-    <figcaption class="caption">Figure 1: A sine curve. Points where <span class="math">\sin(x)=0</span> are integer multiples of <span class="math">\pi</span>. Taken from <a href="https://en.wikipedia.org/wiki/Sine_wave">Wikipedia</a></figcaption>
+    <img src="../../resources/chapter-3/sine_and_cosine.svg" alt="Figure 1: Sine and cosine curves. Points where \sin(x)=0 are integer multiples of \pi. Taken from Wikipedia">
+    <figcaption class="caption">Figure 1: Sine and cosine curves. Points where <span class="math">\sin(x)=0</span> are integer multiples of <span class="math">\pi</span>. Taken from <a href="https://en.wikipedia.org/wiki/Sine_wave">Wikipedia</a></figcaption>
 </figure>
 </p>
 <p>At this point, we can already obtain the energy states equation. First, we rearrange the finding from Eq.(<doc-anchor-trigger to="#RSP_Piab_8">8</doc-anchor-trigger>):</p>
@@ -407,13 +408,13 @@ E &amp;= \frac{\hbar^{2}n^{2}\pi^{2}}{2mL^{2}}  \\
 <p>Consequently,</p>
 <div class="math"><pre>\psi(x)=A\sin kx</pre></div>
 <p>where <span class="math">A</span> is a complex constant.</p>
-<p>Recall that</p>
+<p>Recall our normalization condition</p>
 <div class="math"><pre>\int_{-\infin}^{\infin} |\Psi|^2 \space dx= 1</pre></div>
 <p>hence
 <span id="RSP_Piab_10"></span></p>
 <div class="math"><pre>\begin{align}
 \int_{-\infin}^{\infin} \psi(x)\psi^*(x) \space dx &amp;= 1 \nonumber \\
-\int_{-\infin}^{\infin} A^2 \sin^2(kx) \space dx &amp;= 1 \nonumber \\
+\int_{-\infin}^{\infin} |A|^2 \sin^2(kx) \space dx &amp;= 1 \nonumber \\
 \int_{-\infin}^{\infin} \sin^2(kx) \space dx &amp;= \frac{1}{A^2}  \\
 \end{align}</pre></div>
 <p>Using the trigonometric identity,</p>
@@ -434,11 +435,32 @@ A &amp;= \pm\sqrt{\frac{2}{L}} \nonumber \\
 \psi(x)=\sqrt{\frac{2}{L}}\sin\left(\frac{n\pi}{L}x\right)
 \end{equation}</pre></div>
 <p>and it&#x27;s allowed energy levels are given by Eq.(<doc-anchor-trigger to="#RSP_Piab_9">9</doc-anchor-trigger>).</p>
-<p>Note that the wavefunction in Eq.(<doc-anchor-trigger to="#RSP_Piab_11">11</doc-anchor-trigger>) can take either positive or negative values of <span class="math">A</span> because it has no physical meaning after all. We are mainly interested in the square of the wavefunction which ignores the positive or negative sign.</p>
+<p>Note that the wavefunction in Eq.(<doc-anchor-trigger to="#RSP_Piab_11">11</doc-anchor-trigger>) can take either positive or negative values of <span class="math">A</span>. Wavefunctions have no physical meaning so it does not matter which we take since we are only concerned with the square of the wavefunction. Squared values are always positive.</p>
 <p>Also important is to recall that <span class="math">n</span> takes only positive integer
 values, thus effectively quantising the energy states and wavefunction.
-For this reason, <span class="math">n</span> is known as the quantum number for particle
+For this reason, <span class="math">n</span> is known as the quantum number for the particle
 in a box.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>BONUS</h5>
+<p>For those interested in simulating the energies and wavefunctions for a particle in a box before and after perturbations, download this <a href="link" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span><img class="mb-px inline-flex mr-2" width="18" src="../../resources/common/jupyter-icon.png"></span>
+    <span>Jupyter Notebook</span>
+</a> and explore on your own!</p>
+        </div>
+    </div>
+</div>
 <div class="footnotes">
 <hr />
 <ol>
