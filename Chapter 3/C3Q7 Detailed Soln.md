@@ -101,9 +101,9 @@ Substituting into the SE, we obtain
 $$
 
 \begin{align}
--\frac{\hbar}{2m} (\lambda^2 ce^{\lambda x}) &= E(ce^{\lambda x}) \nonumber\\ 
--\frac{\hbar}{2m} \lambda^2 &= E \nonumber\\
-\lambda^2 &= -\frac{2mE}{\hbar} \nonumber\\
+-\frac{\hbar^2}{2m} (\lambda^2 ce^{\lambda x}) &= E(ce^{\lambda x}) \nonumber\\ 
+-\frac{\hbar^2}{2m} \lambda^2 &= E \nonumber\\
+\lambda^2 &= -\frac{2mE}{\hbar^2} \nonumber\\
 \lambda &= \pm\sqrt{-1}\sqrt{\frac{2mE}{\hbar^2}} \nonumber\\
 \lambda &= \pm i\sqrt{\frac{2mE}{\hbar^2}}  \\ 
 \end{align}
