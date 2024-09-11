@@ -61,7 +61,7 @@ $$
 $$
 where $\psi_{0}$ is the amplitude[^3]
 of the wave, $k=2\pi/\lambda$ is the wavenumber and $\omega=2\pi f$
-is the angular frequency (see Eq.([Light(5)](</Chapter 3/Light#wavenumber>)) and ([Light(6)](</Chapter 3/Light#angfreq>)).
+is the angular frequency (see Eq. [Light(5)](</Chapter 3/Light#wavenumber>) and [Light(6)](</Chapter 3/Light#angfreq>)).
 [^3]: The amplitude can be a complex number, as opposed to real.
 
 The derivatives of $\Psi$ are 
