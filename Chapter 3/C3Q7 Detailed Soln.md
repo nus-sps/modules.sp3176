@@ -72,7 +72,7 @@ $$
 \psi(L) & =0 
 \end{align}
 $$
-But now, what about the wavefunction inside the box for $0 < x< L$?
+Here, the wavefunction 'terminates' at the boundaries. But now, what about the wavefunction inside the box for $0 < x< L$?
 
 ### Step 2: Observe the differential equation
 
@@ -142,7 +142,9 @@ c_{1}(e^{ikL}-e^{-ikL})  = 0  \\
 \end{align}
 $$
 
-Using Euler's identity and since $\cos(x)=\cos(-x)$ while $-\sin(x)=\sin(-x)$,
+Using Euler's identity[^6] and since $\cos(x)=\cos(-x)$ while $-\sin(x)=\sin(-x)$,
+
+[^6]: If you're wondering why can't we just compare the exponentials, it's because you'll end up at an impasse: $e^{ikL}=e^{-ikL} \rightarrow k=0$. Trying to take the natural log of both sides to remove the 'e' term is equivalent to taking the natural log of an imaginary number, which is undesirable. If interested, see [Complex Logarithms](https://en.wikipedia.org/wiki/Complex_logarithm)
 
 $$
 \begin{align}
@@ -162,7 +164,7 @@ c_{1}[2i \sin(kL)] = 0
 \end{align}
 $$
 
-We don't have to worry about the complex constants $2ic_{1}$ and can simplify it to some $A$. What's more important is that for Eq.([8](#RSP_Piab_8)), the sine function only returns 0 when $\underline{kL = n\pi}$, where $n$ takes positive integer values. See Figure 1 below.
+We don't have to worry about the complex constants $2ic_{1}$ and can simplify it later. What's more important is that for Eq.([8](#RSP_Piab_8)), the sine function only returns 0 when $\underline{kL = n\pi}$, where $n$ takes positive integer values. See Figure 1 below.
 
 <span id="Sine_and_Cosine"></span>
 ![Figure 1: Sine and cosine curves. Points where $\sin(x)=0$ are integer multiples of $\pi$. Taken from <a href="https://en.wikipedia.org/wiki/Sine_wave">Wikipedia</a>](</Resources/Chapter 3/Sine_and_Cosine.svg>)
@@ -200,7 +202,7 @@ $$
 \psi(x)=A\sin kx
 $$
 
-where $A$ is a complex constant.
+where $A=2ic_1$ is a complex constant.
 
 Recall our normalization condition  
 $$
@@ -216,6 +218,7 @@ $$
 \int_{-\infin}^{\infin} \sin^2(kx) \space dx &= \frac{1}{A^2}  \\
 \end{align}
 $$
+
 Using the trigonometric identity, 
 $$
 \sin^2(x) = \frac{1-\cos(2x)}{2}
@@ -233,6 +236,12 @@ A &= \pm\sqrt{\frac{2}{L}} \nonumber \\
 
 \end{align}
 $$
+
+!!! In case you've forgotten
+$|A|^2 = AA^* \text{ where } A,A^* \in \mathbb{C} \text{ and } |A|^2 \in \mathbb{R}$ \\
+
+E.g. $(a + ib)(a - ib)= (a^2 + 0 -i^2b^2)= (a^2 + b^2)$ which is real
+!!!
 
 Finally the wavefunction of the particle in a box is
 <span id="RSP_Piab_11"></span>
