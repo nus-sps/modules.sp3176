@@ -50,6 +50,16 @@ The notes for The Universe are also available for download.
 | Spectroscopy Manual | [Link](https://canvas.nus.edu.sg/files/2097106/download?download_frd=1) |
 | Alternative Universe Project  | [Link](https://canvas.nus.edu.sg/files/2097110/download?download_frd=1) |
     
+### Spectroscopy Part I Link 
+| Program             | Link                                                                    |
+|---------------------|-------------------------------------------------------------------------|
+| PASCO Capstone      | [Link](https://www.pasco.com/products/software/capstone#downloads-panel)|
+
+!!! warning
+If you mistakenly saved your Aspec I results as a .ds file instead of a .txt file, you will need to download PASCO Capstone (updated version of DataStudio) to access your .ds files. Rest assured all is saved. Thanks Kush!
+!!!
+
+
 ### Spectroscopy Part II Links
 | Document            | Link                                                                    |
 |---------------------|-------------------------------------------------------------------------|
