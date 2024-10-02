@@ -52,6 +52,8 @@ From the spectrum of PG1512, what is the wavelength of the photons
 corresponding to the most prominent peak emitted from the quasar?
 (Obtain information on the redshift from Table 1 in the paper.)
 
+![Mean spectra of PG quasars in the observed frame.](</Resources/Chapter 5/Kaspi_Fig1.jpg>)
+
 [^1]: S. Kaspi et al., Astrophys. J. 533, 631 (2000)
 
 ---
