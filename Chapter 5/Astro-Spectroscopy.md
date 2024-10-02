@@ -247,9 +247,9 @@ $$
 f'=\sqrt{\frac{c-v_{s}}{c+v_{s}}}f
 $$
 where $c$ here is the speed of light. In the low (source) velocity
-limit where $v_{s}\ll c$, the above equation reduces to Eq.([3](#DopplerSHiftFreq)).
+limit where $v_{s}\ll c$, the above equation reduces to Eq.([2](#DopplerSHiftFreq)).
 In practical astronomy, this is almost always the case and hence the
-simpler formulae Eqs.([2](#DopplerSHiftWavelenth)) and ([3](#DopplerSHiftFreq))
+simpler formulae Eqs.([1](#DopplerSHiftWavelenth)) and ([2](#DopplerSHiftFreq))
 are usually used. 
 
 Generally all celestial objects are in relative motion with us, hence

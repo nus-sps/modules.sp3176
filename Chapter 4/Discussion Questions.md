@@ -48,7 +48,7 @@ of CO. Estimate the internuclei distance of CO.
 ---
 
 4. The molecule Cyanoacetylene $\text{HC}_{3}\text{N}$
-exhibits a spectral line at 9.098 GHz for the $4=1\rightarrow0$ transition.
+exhibits a spectral line at 9.098 GHz for the $J=1\rightarrow0$ transition.
 
 a. What is the rotational constant in units of GHz?
 

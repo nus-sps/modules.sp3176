@@ -2,6 +2,7 @@
 label: Particle in a Box Detailed Solution
 layout: page
 icon: ":package:"
+order: -100
 author:
   - name: Ryan Phillips
     email: ryan.phillips21@sps.nus.edu.sg
