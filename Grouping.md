@@ -7,7 +7,7 @@ order: 80
 
 # Grouping
 
-You have three groups in SP3176: The Universe! Find your field trip group, Atomic Spectra group, and Mini Project group here.
+You have three groups in SP3176: The Universe! Find your Astronight group, Atomic Spectra group, and Mini Project group here.
 
 Alternatively, change it on the SP3176 Admin Document on Google Sheets.
 
