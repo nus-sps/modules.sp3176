@@ -105,7 +105,7 @@ where $\Lambda$ is a constant, also known as the cosmological constant.
 <span id="density_matter_Lambda"></span>
 $$
 \begin{equation}
-\rho=\frac{\Lambda}{4\pi G}
+\rho=\rho_0=\frac{\Lambda}{4\pi G}
 \end{equation}
 $$
 
