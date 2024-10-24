@@ -12,7 +12,7 @@ date: 2022-10-16T12:00
 description: "Schedule AY23/24"
 ---
 
-# Schedule
+# Schedule AY24/25
 
 | Week        | Lecture                                   | Interactive session (IS, aka tutorial in other Universes) |
 |-------------|-------------------------------------------|-----------------------------------------------------------|
@@ -27,8 +27,8 @@ description: "Schedule AY23/24"
 |           8 | Ch. 7 Expanding Universe                  | Ch. 6 Space and Time                                      |
 |           9 | Ch. 7 Expanding Universe                  | Ch. 7 Expanding Universe                                  |
 |          10 | Ch. 8 Big bang theory                     | Ch. 7 Expanding Universe                                  |
-|          11 | Ch. 8 Big bang theory                     | Ch. 8 Big bang theory                                     |
-|          12 | Test paper discussion                     | No tutorial                                               |
+|          11 | Ch. 8 Big bang theory                     | No tutorial                                               |
+|          12 | Test paper discussion                     | Ch. 8 Big bang theory                                     |
 |          13 | Project presentation                      | Test paper discussion                                     |
 
-AY24/25 Test date tentatively Monday of Reading Week, 10am--12pm
+AY24/25 Test date tentatively Wednesday of Reading Week, 10am--12pm
